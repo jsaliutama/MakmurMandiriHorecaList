@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/bertolliOliveContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonBertolliClassico"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/bertolli_classico_s"
+        android:text="@string/Bertolli_olive_classico"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonBertolliExtraLight"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/bertolli_xtralight_s"
+        android:text="@string/Bertolli_olive_xtralight"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonBertolliExtraVirgin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/bertolli_extra_virgin_s"
+        android:text="@string/Bertolli_olive_xtravirgin"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/goldenBridgeContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonGbCanola"
+        android:drawableStart="@drawable/ic_unknown"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/GB_canola"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonGbCorn"
+        android:drawableStart="@drawable/golden_bridge_corn_oil_s"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/GB_corn"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonGbSalad"
+        android:drawableStart="@drawable/golden_bridge_salad_oil_s"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/GB_salad"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonGbSunflower"
+        android:drawableStart="@drawable/ic_unknown"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/GB_sunflower"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

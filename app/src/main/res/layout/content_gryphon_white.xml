@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/gryphonWhiteContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonGryphonWhiteGingerlily"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/gryphon_gingerlily_s"
+        android:text="@string/Gryphon_white_gingerlily"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonGryphonWhiteNymph"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/gryphon_nymph_s"
+        android:text="@string/Gryphon_white_nymph"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

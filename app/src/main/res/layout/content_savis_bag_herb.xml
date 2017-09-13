@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/savisBagHerbContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="65dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/buttonSavisBagHerbExotic"
+            android:drawableStart="@drawable/ic_unknown"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Savis_bag_herb_exotic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonSavisBagHerbJava"
+            android:drawableStart="@drawable/ic_unknown"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Savis_bag_herb_java"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+</ScrollView>

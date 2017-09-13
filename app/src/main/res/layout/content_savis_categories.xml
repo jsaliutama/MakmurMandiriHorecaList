@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonSavisCatBag"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/Savis_bag_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonSavisCatLoose"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/Savis_loose_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

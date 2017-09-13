@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/heinzContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonHeinzApple"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Heinz_apple"
+        android:drawableStart="@drawable/heinz_apple_cider_s"/>
+    <Button
+        android:id="@+id/buttonHeinzTomato"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Heinz_tomato"
+        android:drawableStart="@drawable/heinz_tomato_paste_s"/>
+    <Button
+        android:id="@+id/buttonHeinzWhite"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/Heinz_white"
+        android:drawableStart="@drawable/heinz_white_vinegar_s"/>
+</LinearLayout>

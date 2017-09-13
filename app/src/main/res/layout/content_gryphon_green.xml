@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/gryphonGreenContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonGryphonHanamiGreen"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/gryphon_hanami_s"
+        android:text="@string/Gryphon_green_hanami"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonGryphonMarrakeshGreen"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/gryphon_marrakesh_s"
+        android:text="@string/Gryphon_green_marrakesh"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonGryphonOsmanthusGreen"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/gryphon_osmanthus_s"
+        android:text="@string/Gryphon_green_osmantus"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonGryphonPearlGreen"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/gryphon_pearl_s"
+        android:text="@string/Gryphon_green_pearl"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

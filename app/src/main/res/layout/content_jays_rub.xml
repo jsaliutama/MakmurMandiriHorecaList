@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/jaysRubContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonJaysRubChicken"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/ic_unknown"
+        android:text="@string/Jays_rub_chicken"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonJaysRubRibs"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/ic_unknown"
+        android:text="@string/Jays_rub_ribs"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonJaysRubSeafood"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/ic_unknown"
+        android:text="@string/Jays_rub_seafood"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonJaysRubSteak"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/ic_unknown"
+        android:text="@string/Jays_rub_steak"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

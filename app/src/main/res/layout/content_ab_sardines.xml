@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abSardinesContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonAbSardineTallTin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/AB_sardine_tall"
+        android:drawableStart="@drawable/ab_sardine_tall_s"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonAbSardineOvalTin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/AB_sardine_oval"
+        android:drawableStart="@drawable/ab_sardine_bulat_s"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

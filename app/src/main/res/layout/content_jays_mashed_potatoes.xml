@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/jaysMashedContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonJaysMashedGarlic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/jays_mashed_garlic_s"
+        android:text="@string/Jays_mashed_garlic"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonJaysMashedTraditional"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/jays_mashed_traditional_s"
+        android:text="@string/Jays_mashed_traditional"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

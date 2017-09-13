@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/savisLooseOrganicContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp">
+    <Button
+        android:id="@+id/buttonSavisLooseOrganicGreen"
+        android:drawableStart="@drawable/ic_unknown"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/Savis_loose_organic_green"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonSavisLooseOrganicOolong"
+        android:drawableStart="@drawable/ic_unknown"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/Savis_loose_organic_oolong"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+    <Button
+        android:id="@+id/buttonSavisLooseOrganicRed"
+        android:drawableStart="@drawable/ic_unknown"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/Savis_loose_organic_red"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+</LinearLayout>

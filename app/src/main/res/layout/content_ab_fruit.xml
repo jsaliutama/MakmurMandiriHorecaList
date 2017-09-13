@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abFruitContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp"
+    android:orientation="vertical">
+        <Button
+            android:id="@+id/buttonAbCocktail"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:drawableStart="@drawable/ab_fruit_cocktail_s"
+            android:text="@string/AB_fruit_cocktail"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonAbPineapple"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:drawableStart="@drawable/ab_pineapple_s"
+            android:text="@string/AB_fruit_pineapple"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+</LinearLayout>
