@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:text="@string/Diamond_foil"
-        android:drawableStart="@drawable/ic_unknown"
+        android:drawableStart="@drawable/diamond_foil_s"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"/>
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:text="@string/Diamond_cling"
-        android:drawableStart="@drawable/ic_unknown"
+        android:drawableStart="@drawable/diamond_cling_s"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"/>
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:text="@string/Diamond_heavy"
-        android:drawableStart="@drawable/ic_unknown"
+        android:drawableStart="@drawable/diamond_heavy_duty_s"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"/>
@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:text="@string/Diamond_freezer"
-        android:drawableStart="@drawable/ic_unknown"
+        android:drawableStart="@drawable/diamond_freezer_s"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"/>
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:text="@string/Diamond_storage"
-        android:drawableStart="@drawable/ic_unknown"
+        android:drawableStart="@drawable/diamond_storage_s"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"/>

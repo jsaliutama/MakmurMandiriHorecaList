@@ -2,10 +2,8 @@ package com.example.dell.majumandiriproductlist;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.graphics.drawable.RippleDrawable;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -133,31 +131,31 @@ public class DiamondAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonDiamondAluminum:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.diamond_foil_l);
                     textNameEdit.setText(R.string.Diamond_foil_label);
                     textWeightEdit.setText(R.string.Diamond_foil_size);
                     textPerCrtEdit.setText(R.string.Diamond_foil_price);
                     break;
                 case R.id.buttonDiamondCling:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.diamond_cling_l);
                     textNameEdit.setText(R.string.Diamond_cling_label);
                     textWeightEdit.setText(R.string.Diamond_cling_size);
                     textPerCrtEdit.setText(R.string.Diamond_cling_price);
                     break;
                 case R.id.buttonDiamondFreezer:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.diamond_freezer_l);
                     textNameEdit.setText(R.string.Diamond_freezer_label);
                     textWeightEdit.setText(R.string.Diamond_freezer_size);
                     textPerCrtEdit.setText(R.string.Diamond_freezer_price);
                     break;
                 case R.id.buttonDiamondHeavy:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.diamond_heavy_duty_l);
                     textNameEdit.setText(R.string.Diamond_heavy_label);
                     textWeightEdit.setText(R.string.Diamond_heavy_size);
                     textPerCrtEdit.setText(R.string.Diamond_heavy_price);
                     break;
                 case R.id.buttonDiamondStorage:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.diamond_storage_l);
                     textNameEdit.setText(R.string.Diamond_storage_label);
                     textWeightEdit.setText(R.string.Diamond_storage_size);
                     textPerCrtEdit.setText(R.string.Diamond_storage_price);

@@ -2,9 +2,8 @@ package com.example.dell.majumandiriproductlist;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -184,7 +183,7 @@ public class CornicheAllItems extends AppCompatActivity {
                     textPerCrtEdit.setText(R.string.Corniche_mega_price);
                     break;
                 case R.id.buttonCornicheMiniAssorted:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.corniche_mini_assorted_l);
                     textNameEdit.setText(R.string.Corniche_mini_assorted_label);
                     textWeightEdit.setText(R.string.Corniche_mini_assorted_weight);
                     textPerCrtEdit.setText(R.string.Corniche_mini_assorted_price);
@@ -208,19 +207,19 @@ public class CornicheAllItems extends AppCompatActivity {
                     textPerCrtEdit.setText(R.string.Corniche_teddy_apple_price);
                     break;
                 case R.id.buttonCornicheTeddyAssorted:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.corniche_teddy_assorted_l);
                     textNameEdit.setText(R.string.Corniche_teddy_assorted_label);
                     textWeightEdit.setText(R.string.Corniche_teddy_assorted_weight);
                     textPerCrtEdit.setText(R.string.Corniche_teddy_assorted_price);
                     break;
                 case R.id.buttonCornicheTeddyChoco:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.corniche_teddy_choco_l);
                     textNameEdit.setText(R.string.Corniche_teddy_choco_label);
                     textWeightEdit.setText(R.string.Corniche_teddy_choco_weight);
                     textPerCrtEdit.setText(R.string.Corniche_teddy_choco_price);
                     break;
                 case R.id.buttonCornicheTeddyMango:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.corniche_teddy_mango_l);
                     textNameEdit.setText(R.string.Corniche_teddy_mango_label);
                     textWeightEdit.setText(R.string.Corniche_teddy_mango_weight);
                     textPerCrtEdit.setText(R.string.Corniche_teddy_mango_price);

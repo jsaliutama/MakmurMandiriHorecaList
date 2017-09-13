@@ -3,12 +3,13 @@
     android:id="@+id/cornicheAllItemsContentLayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingTop="65dp"
+    android:paddingBottom="10dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="65dp">
+        android:orientation="vertical">
         <Button
             android:id="@+id/buttonCornicheFluffy"
             android:drawableStart="@drawable/corniche_fluffy_s"
@@ -29,7 +30,7 @@
             android:layout_marginRight="8dp"/>
         <Button
             android:id="@+id/buttonCornicheMiniAssorted"
-            android:drawableStart="@drawable/ic_unknown"
+            android:drawableStart="@drawable/corniche_mini_assorted_s"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Corniche_mini_assorted"
@@ -65,7 +66,7 @@
             android:layout_marginRight="8dp"/>
         <Button
             android:id="@+id/buttonCornicheTeddyAssorted"
-            android:drawableStart="@drawable/ic_unknown"
+            android:drawableStart="@drawable/corniche_teddy_assorted_s"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Corniche_teddy_assorted"
@@ -74,7 +75,7 @@
             android:layout_marginRight="8dp"/>
         <Button
             android:id="@+id/buttonCornicheTeddyChoco"
-            android:drawableStart="@drawable/ic_unknown"
+            android:drawableStart="@drawable/corniche_teddy_choco_s"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Corniche_teddy_choco"
@@ -83,7 +84,7 @@
             android:layout_marginRight="8dp"/>
         <Button
             android:id="@+id/buttonCornicheTeddyMango"
-            android:drawableStart="@drawable/ic_unknown"
+            android:drawableStart="@drawable/corniche_teddy_mango_s"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Corniche_teddy_mango"
