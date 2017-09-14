@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/franksContentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="65dp"
+    android:paddingBottom="10dp">
+    <Button
+        android:id="@+id/buttonFranksBuffalo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/franks_buffallo_wings_s"
+        android:text="@string/Franks_buffalo"/>
+    <Button
+        android:id="@+id/buttonFranksCayenne"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/franks_original_cayenne_s"
+        android:text="@string/Franks_cayenne"/>
+    <Button
+        android:id="@+id/buttonFranksHotBuffalo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/franks_hot_buffallo_wings_s"
+        android:text="@string/Franks_hot_buffalo"/>
+    <Button
+        android:id="@+id/buttonFranksSweetChili"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/franks_sweet_chili_s"
+        android:text="@string/Franks_sweet_chili"/>
+    <Button
+        android:id="@+id/buttonFranksSweetHeat"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:drawableStart="@drawable/franks_sweet_heat_bbq_wings_s"
+        android:text="@string/Franks_sweet_heat"/>
+</LinearLayout>

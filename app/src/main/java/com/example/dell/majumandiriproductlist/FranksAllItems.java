@@ -11,11 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class AbMackarel extends AppCompatActivity {
+public class FranksAllItems extends AppCompatActivity {
 
     //Constants
     final String WHITE = "#ffffff";
@@ -25,72 +25,54 @@ public class AbMackarel extends AppCompatActivity {
     final float BACKGROUND_DIM = 0.7f;
     final float BACKGROUND_GONE = 0.0f;
 
-    ScrollView contentLayout;
+    LinearLayout contentLayout;
     PopupWindow popUpWindow;
-
-    int[] buttonList = {R.id.buttonAbMackarelOriginal,
-            R.id.buttonAbFriedMackarel,
-            R.id.buttonAbSpicyMackarel,
-            R.id.buttonAbMackarelPadang
+    Button btnClose;
+    int[] buttonList = {R.id.buttonFranksBuffalo,
+            R.id.buttonFranksCayenne,
+            R.id.buttonFranksHotBuffalo,
+            R.id.buttonFranksSweetChili,
+            R.id.buttonFranksSweetHeat
     };
     ImageView imageView;
     TextView textNameEdit;
     TextView textWeightEdit;
     TextView textPerCrtEdit;
-    Button btnClose;
+    TextView textWeightLabel;
 
-    Button ori;
-    Button fried;
-    Button spicy;
-    Button padang;
+    Button cayenne;
+    Button buffalo;
+    Button hotBuffalo;
+    Button sweetChili;
+    Button sweetHeat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ab_mackarel);
+        setContentView(R.layout.activity_franks_all_items);
 
-        Toolbar abToolbarMackarel = (Toolbar)findViewById(R.id.toolbarAbMackarel);
-        setSupportActionBar(abToolbarMackarel);
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarFranksAllItems);
+        setSupportActionBar(toolbar);
 
-        if (getSupportActionBar() != null) {
+        if (getSupportActionBar() != null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
         //Set background
-        contentLayout = (ScrollView)findViewById(R.id.abMackarelContentLayout);
+        contentLayout = (LinearLayout)findViewById(R.id.franksContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
         //Set buttons
-        ori = (Button)findViewById(R.id.buttonAbMackarelOriginal);
-        fried = (Button)findViewById(R.id.buttonAbFriedMackarel);
-        spicy = (Button)findViewById(R.id.buttonAbSpicyMackarel);
-        padang = (Button)findViewById(R.id.buttonAbMackarelPadang);
+        cayenne = (Button)findViewById(R.id.buttonFranksCayenne);
+        buffalo = (Button)findViewById(R.id.buttonFranksBuffalo);
+        hotBuffalo = (Button)findViewById(R.id.buttonFranksHotBuffalo);
+        sweetChili = (Button)findViewById(R.id.buttonFranksSweetChili);
+        sweetHeat = (Button)findViewById(R.id.buttonFranksSweetHeat);
 
-        ori.setOnClickListener(new View.OnClickListener() {
+        cayenne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(ori);
-            }
-        });
 
-        fried.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btnOnClick(fried);
-            }
-        });
-
-        spicy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btnOnClick(spicy);
-            }
-        });
-
-        padang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btnOnClick(padang);
             }
         });
     }
@@ -110,7 +92,7 @@ public class AbMackarel extends AppCompatActivity {
             Helpers helpers = new Helpers(getApplicationContext());
 
             //Show the popup window
-            LayoutInflater inflater = (LayoutInflater)AbMackarel.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater)FranksAllItems.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.popup, (ViewGroup)findViewById(R.id.popup_element));
             popUpWindow = new PopupWindow(layout, helpers.dpToPx(600), helpers.dpToPx(750)); //(context, width, height)
             popUpWindow.showAtLocation(layout, Gravity.CENTER, 0, 0); //(layout, gravity, x, y)
@@ -120,30 +102,39 @@ public class AbMackarel extends AppCompatActivity {
             textNameEdit = (TextView)layout.findViewById(R.id.textNameEdit);
             textWeightEdit = (TextView)layout.findViewById(R.id.textWeightEdit);
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
+            textWeightLabel = (TextView)layout.findViewById(R.id.textWeightLabel);
+            textWeightLabel.setText("Kemasan");
+
             switch (b.getId()){
-                case R.id.buttonAbMackarelOriginal:
-                    imageView.setImageResource(R.drawable.ab_mackerel_tomato_l);
-                    textNameEdit.setText(R.string.AB_mackerel_ori_label);
-                    textWeightEdit.setText(R.string.AB_mackerel_ori_weight);
-                    textPerCrtEdit.setText(R.string.AB_mackerel_ori_price);
+                case R.id.buttonFranksBuffalo:
+                    imageView.setImageResource(R.drawable.franks_buffallo_wings_l);
+                    textNameEdit.setText(R.string.Franks_buffalo_label);
+                    textWeightEdit.setText(R.string.Franks_buffalo_weight);
+                    textPerCrtEdit.setText(R.string.Franks_buffalo_price);
                     break;
-                case R.id.buttonAbFriedMackarel:
-                    imageView.setImageResource(R.drawable.ab_fried_mackerel_l);
-                    textNameEdit.setText(R.string.AB_mackerel_fried_label);
-                    textWeightEdit.setText(R.string.AB_mackerel_fried_weight);
-                    textPerCrtEdit.setText(R.string.AB_mackerel_fried_price);
+                case R.id.buttonFranksCayenne:
+                    imageView.setImageResource(R.drawable.franks_original_cayenne_l);
+                    textNameEdit.setText(R.string.Franks_cayenne_label);
+                    textWeightEdit.setText(R.string.Franks_cayenne_weight);
+                    textPerCrtEdit.setText(R.string.Franks_cayenne_price);
                     break;
-                case R.id.buttonAbSpicyMackarel:
-                    imageView.setImageResource(R.drawable.ab_spicy_mackerel_l);
-                    textNameEdit.setText(R.string.AB_mackerel_spicy_label);
-                    textWeightEdit.setText(R.string.AB_mackerel_spicy_weight);
-                    textPerCrtEdit.setText(R.string.AB_mackerel_spicy_price);
+                case R.id.buttonFranksHotBuffalo:
+                    imageView.setImageResource(R.drawable.franks_hot_buffallo_wings_l);
+                    textNameEdit.setText(R.string.Franks_hot_buffalo_label);
+                    textWeightEdit.setText(R.string.Franks_hot_buffalo_weight);
+                    textPerCrtEdit.setText(R.string.Franks_hot_buffalo_price);
                     break;
-                case R.id.buttonAbMackarelPadang:
-                    imageView.setImageResource(R.drawable.ab_mackerel_padang_l);
-                    textNameEdit.setText(R.string.AB_mackerel_padang_label);
-                    textWeightEdit.setText(R.string.AB_mackerel_padang_weight);
-                    textPerCrtEdit.setText(R.string.AB_mackerel_padang_price);
+                case R.id.buttonFranksSweetChili:
+                    imageView.setImageResource(R.drawable.franks_sweet_chili_l);
+                    textNameEdit.setText(R.string.Franks_sweet_chili_label);
+                    textWeightEdit.setText(R.string.Franks_sweet_chili_weight);
+                    textPerCrtEdit.setText(R.string.Franks_sweet_chili_price);
+                    break;
+                case R.id.buttonFranksSweetHeat:
+                    imageView.setImageResource(R.drawable.franks_sweet_heat_bbq_wings_l);
+                    textNameEdit.setText(R.string.Franks_sweet_heat_label);
+                    textWeightEdit.setText(R.string.Franks_sweet_heat_weight);
+                    textPerCrtEdit.setText(R.string.Franks_sweet_heat_price);
                     break;
             }
             //Setup close button

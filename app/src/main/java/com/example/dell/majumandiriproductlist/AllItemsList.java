@@ -144,5 +144,15 @@ public class AllItemsList extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Generate Franks button
+        Button franksButton = (Button)findViewById(R.id.buttonFranks);
+        franksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FranksAllItems.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -781,7 +781,7 @@
     <string name="Diamond_cling_label">Diamond Cling Wrap</string>
     <string name="Diamond_cling_size">100 sq. ft./24</string>
     <string name="Diamond_cling_price">385.000/16.042</string>
-    
+
     <!--The following is for Heinz-related items-->
     <string name="Heinz_title">Heinz</string>
     <string name="Heinz_tomato">Tomato Paste</string>
@@ -796,4 +796,29 @@
     <string name="Heinz_white_label">Heinz White VInegar</string>
     <string name="Heinz_white_weight">16 oz./12\n32 oz./12</string>
     <string name="Heinz_white_price">16 oz. : 330.000/27.500\n32 oz. : 550.000/45.833</string>
+
+
+
+    <!--The following is for Franks-related items-->
+    <string name="Franks_title">Frank\'s RedHot</string>
+    <string name="Franks_sweet_chili">Sweet Chili</string>
+    <string name="Franks_sweet_chili_label">Frank\'s RedHot Sweet Chili Sauce</string>
+    <string name="Franks_sweet_chili_weight">12 oz./12</string>
+    <string name="Franks_sweet_chili_price">550.000/45.833</string>
+    <string name="Franks_buffalo">Buffalo</string>
+    <string name="Franks_buffalo_label">Frank\'s RedHot Buffalo Wings Sauce</string>
+    <string name="Franks_buffalo_weight">12 oz./12</string>
+    <string name="Franks_buffalo_price">550.000/45.833</string>
+    <string name="Franks_hot_buffalo">Hot Buffalo</string>
+    <string name="Franks_hot_buffalo_label">Frank\'s RedHot Hot Buffalo Wings Sauce</string>
+    <string name="Franks_hot_buffalo_weight">12 oz./12</string>
+    <string name="Franks_hot_buffalo_price">550.000/45.833</string>
+    <string name="Franks_sweet_heat">Sweet Heat</string>
+    <string name="Franks_sweet_heat_label">Frank\'s RedHot Sweet Heat BBQ Wings Sauce</string>
+    <string name="Franks_sweet_heat_weight">12 oz./12</string>
+    <string name="Franks_sweet_heat_price">550.000/45.833</string>
+    <string name="Franks_cayenne">Cayenne</string>
+    <string name="Franks_cayenne_label">Frank\'s RedHot Original Cayenne Sauce</string>
+    <string name="Franks_cayenne_weight">5 oz./24</string>
+    <string name="Franks_cayenne_price">541.200/22.500</string>
 </resources>

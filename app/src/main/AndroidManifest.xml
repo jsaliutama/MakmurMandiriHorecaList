@@ -538,6 +538,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".AllItemsList" />
         </activity>
+        <activity
+            android:name=".FranksAllItems"
+            android:label="@string/Franks_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
     </application>
 
 </manifest>

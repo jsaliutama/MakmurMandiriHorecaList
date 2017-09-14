@@ -2,10 +2,8 @@ package com.example.dell.majumandiriproductlist;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.graphics.drawable.RippleDrawable;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -14,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class JaysBottleThree extends AppCompatActivity {
@@ -26,7 +25,7 @@ public class JaysBottleThree extends AppCompatActivity {
     final float BACKGROUND_DIM = 0.7f;
     final float BACKGROUND_GONE = 0.0f;
 
-    ConstraintLayout contentLayout;
+    ScrollView contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
     int[] buttonList = {R.id.buttonJaysPaprika,
@@ -38,7 +37,6 @@ public class JaysBottleThree extends AppCompatActivity {
             R.id.buttonJaysTarragon,
             R.id.buttonJaysThyme,
             R.id.buttonjaysTumeric,
-            R.id.buttonJaysMustard,
             R.id.buttonJaysWholeWp,
             R.id.buttonJaysWholeBp,
             R.id.buttonJaysWp
@@ -74,7 +72,7 @@ public class JaysBottleThree extends AppCompatActivity {
         }
 
         //Setup layout
-        contentLayout = (ConstraintLayout) findViewById(R.id.jaysBottleThreeContentLayout);
+        contentLayout = (ScrollView) findViewById(R.id.jaysBottleThreeContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
         //Setup buttons
@@ -203,7 +201,7 @@ public class JaysBottleThree extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonJaysPaprika:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jays_paprika_l);
                     textNameEdit.setText(R.string.Jays_paprika);
                     textWeightEdit.setText(R.string.Jays_paprika_weight);
                     textPerCrtEdit.setText(R.string.Jays_paprika_price);
@@ -215,13 +213,13 @@ public class JaysBottleThree extends AppCompatActivity {
                     textPerCrtEdit.setText(R.string.Jays_parsley_price);
                     break;
                 case R.id.buttonJaysRoastCumin:
-                    imageView.setImageResource(R.drawable.jays_cumin_l);
+                    imageView.setImageResource(R.drawable.jays_roasted_cumin_l);
                     textNameEdit.setText(R.string.Jays_roast_cumin);
                     textWeightEdit.setText(R.string.Jays_roast_cumin_weight);
                     textPerCrtEdit.setText(R.string.Jays_roast_cumin_price);
                     break;
                 case R.id.buttonJaysRoastFennel:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jays_roasted_fennel_l);
                     textNameEdit.setText(R.string.Jays_roast_fennel);
                     textWeightEdit.setText(R.string.Jays_roast_fennel_weight);
                     textPerCrtEdit.setText(R.string.Jays_roast_fennel_price);

@@ -2,9 +2,8 @@ package com.example.dell.majumandiriproductlist;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -13,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class JaysBottleOne extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class JaysBottleOne extends AppCompatActivity {
     final float BACKGROUND_DIM = 0.7f;
     final float BACKGROUND_GONE = 0.0f;
 
-    ConstraintLayout contentLayout;
+    ScrollView contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
     int[] buttonList = {R.id.buttonJaysAllPurpose,
@@ -47,6 +47,7 @@ public class JaysBottleOne extends AppCompatActivity {
     TextView textNameEdit;
     TextView textWeightEdit;
     TextView textPerCrtEdit;
+
     Button jaysAll;
     Button jaysBasil;
     Button jaysBay;
@@ -75,7 +76,7 @@ public class JaysBottleOne extends AppCompatActivity {
         }
 
         //Setup layout
-        contentLayout = (ConstraintLayout) findViewById(R.id.jaysBottleOneContentLayout);
+        contentLayout = (ScrollView) findViewById(R.id.jaysBottleOneContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
         //Setup buttons
@@ -256,7 +257,7 @@ public class JaysBottleOne extends AppCompatActivity {
                     textPerCrtEdit.setText(R.string.Jays_chicken_price);
                     break;
                 case R.id.buttonJaysChiliFlakes:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jays_chili_flakes_l);
                     textNameEdit.setText(R.string.Jays_chili_flakes);
                     textWeightEdit.setText(R.string.Jays_chili_flakes_weight);
                     textPerCrtEdit.setText(R.string.Jays_chili_flakes_price);

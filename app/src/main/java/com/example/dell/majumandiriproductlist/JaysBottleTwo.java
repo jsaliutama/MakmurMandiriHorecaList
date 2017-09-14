@@ -2,9 +2,8 @@ package com.example.dell.majumandiriproductlist;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -13,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class JaysBottleTwo extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class JaysBottleTwo extends AppCompatActivity {
     final float BACKGROUND_DIM = 0.7f;
     final float BACKGROUND_GONE = 0.0f;
 
-    ConstraintLayout contentLayout;
+    ScrollView contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
     int[] buttonList = {R.id.buttonJaysFennel,
@@ -78,7 +78,7 @@ public class JaysBottleTwo extends AppCompatActivity {
         }
 
         //Setup layout
-        contentLayout = (ConstraintLayout) findViewById(R.id.jaysBottleTwoContentLayout);
+        contentLayout = (ScrollView) findViewById(R.id.jaysBottleTwoContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
         //Setup buttons
@@ -231,7 +231,7 @@ public class JaysBottleTwo extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonJaysFennel:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jays_fennel_ground_l);
                     textNameEdit.setText(R.string.Jays_fennel);
                     textWeightEdit.setText(R.string.Jays_fennel_weight);
                     textPerCrtEdit.setText(R.string.Jays_fennel_price);
@@ -255,13 +255,13 @@ public class JaysBottleTwo extends AppCompatActivity {
                     textPerCrtEdit.setText(R.string.Jays_garlic_bread_price);
                     break;
                 case R.id.buttonJaysGarlicMinced:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jays_garlic_minced_l);
                     textNameEdit.setText(R.string.Jays_garlic_minced);
                     textWeightEdit.setText(R.string.Jays_garlic_minced_weight);
                     textPerCrtEdit.setText(R.string.Jays_garlic_minced_price);
                     break;
                 case R.id.buttonJaysGarlicPowder:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jays_garlic_powder_l);
                     textNameEdit.setText(R.string.Jays_garlic_powder);
                     textWeightEdit.setText(R.string.Jays_garlic_powder_weight);
                     textPerCrtEdit.setText(R.string.Jays_garlic_powder_price);
@@ -291,7 +291,7 @@ public class JaysBottleTwo extends AppCompatActivity {
                     textPerCrtEdit.setText(R.string.Jays_italian_price);
                     break;
                 case R.id.buttonJaysMustard:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jays_mustard_ground_l);
                     textNameEdit.setText(R.string.Jays_mustard);
                     textWeightEdit.setText(R.string.Jays_mustard_weight);
                     textPerCrtEdit.setText(R.string.Jays_mustard_price);

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dell.majumandiriproductlist.CornicheAllItems">
+    tools:context="com.example.dell.majumandiriproductlist.FranksAllItems">
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbarCornicheAllItems"
+            android:id="@+id/toolbarFranksAllItems"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -21,5 +20,5 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_corniche_all_items"/>
+    <include layout="@layout/content_franks_all_items"/>
 </android.support.design.widget.CoordinatorLayout>
