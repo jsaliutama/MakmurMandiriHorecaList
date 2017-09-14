@@ -154,5 +154,15 @@ public class AllItemsList extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Generate Reynolds button
+        Button reynoldsButton = (Button)findViewById(R.id.buttonReynolds);
+        reynoldsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ReynoldsAllItems.class);
+                startActivity(intent);
+            }
+        });
     }
 }

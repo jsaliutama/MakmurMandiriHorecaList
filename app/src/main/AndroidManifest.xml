@@ -547,6 +547,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".AllItemsList" />
         </activity>
+        <activity android:name=".ReynoldsAllItems"></activity>
     </application>
 
 </manifest>

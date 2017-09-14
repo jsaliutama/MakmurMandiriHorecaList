@@ -62,30 +62,30 @@
     <string name="AB_mackerel_nav">Ayam Brand > Mackerel</string>
     <string name="AB_mackerel_ori">Makarel Tomat</string>
     <string name="AB_mackerel_ori_label">Ayam Brand Makarel Dalam Saus Tomat</string>
-    <string name="AB_mackerel_ori_weight">Tall: 425gr/24\nBuffet: 230gr/24\nJitney : 115gr/50</string>
-    <string name="AB_mackerel_ori_price">Tall: \nBuffet: \nJitney: </string>
+    <string name="AB_mackerel_ori_weight">Tall: 425gr/24\nBuffet: 230gr/48\nJitney : 115gr/60</string>
+    <string name="AB_mackerel_ori_price">Tall: 611.100/25.461\nBuffet: 794.800/16.558\nJitney: 686.400/11.440</string>
     <string name="AB_mackerel_fried">Fried Mackerel</string>
     <string name="AB_mackerel_fried_label">Ayam Brand Makarel Goreng</string>
     <string name="AB_mackerel_fried_weight">115gr/50</string>
-    <string name="AB_mackerel_fried_price"></string>
+    <string name="AB_mackerel_fried_price">700.700/14.014</string>
     <string name="AB_mackerel_spicy">Spicy Mackerel</string>
     <string name="AB_mackerel_spicy_label">Ayam Brand Makarel Pedas</string>
     <string name="AB_mackerel_spicy_weight">425gr/24</string>
-    <string name="AB_mackerel_spicy_price"></string>
+    <string name="AB_mackerel_spicy_price">611.100/25.461</string>
     <string name="AB_mackerel_padang">Saus Padang</string>
     <string name="AB_mackerel_padang_label">Ayam Brand Makarel Saus Padang</string>
     <string name="AB_mackerel_padang_weight">425gr/24</string>
-    <string name="AB_mackerel_padang_price"></string>
+    <string name="AB_mackerel_padang_price">611.100/25.461</string>
     <!--Category: Sardines-->
     <string name="AB_sardine_nav">Ayam Brand > Sardines</string>
     <string name="AB_sardine_oval">Sarden Oval</string>
     <string name="AB_sardine_oval_label">Ayam Brand Sarden Oval Dalam Tomat</string>
-    <string name="AB_sardine_oval_weight">Tall: \nJitney: \nBuffet: </string>
-    <string name="AB_sardine_oval_price">Tall: \nJitney: \nBuffet: </string>
+    <string name="AB_sardine_oval_weight">Kecil: 215 gr/48\nBesar: 425 gr/24</string>
+    <string name="AB_sardine_oval_price">Kecil: 972.400/20.259\nBesar: 881.100/36.713</string>
     <string name="AB_sardine_tall">Sarden Kaleng</string>
     <string name="AB_sardine_tall_label">Ayam Brand Sarden Kaleng Dalam Tomat</string>
-    <string name="AB_sardine_tall_weight">Tall: \nJitney: \nBuffet: </string>
-    <string name="AB_sardine_tall_price">Tall: \nJitney: \nBuffet: </string>
+    <string name="AB_sardine_tall_weight">Tall: 425 gr/24\nJitney: 155 gr/60\nBuffet: 230 gr/48</string>
+    <string name="AB_sardine_tall_price">Tall: 589.000/24.544\nJitney: 662.200/11.037\nBuffet: 776.700/15.973</string>
     <!--Category: Vegetables-->
     <string name="AB_veggies_nav">Ayam Brand > Sayur-sayuran</string>
     <string name="AB_baked_beans">Baked Beans</string>
@@ -798,7 +798,6 @@
     <string name="Heinz_white_price">16 oz. : 330.000/27.500\n32 oz. : 550.000/45.833</string>
 
 
-
     <!--The following is for Franks-related items-->
     <string name="Franks_title">Frank\'s RedHot</string>
     <string name="Franks_sweet_chili">Sweet Chili</string>
@@ -821,4 +820,44 @@
     <string name="Franks_cayenne_label">Frank\'s RedHot Original Cayenne Sauce</string>
     <string name="Franks_cayenne_weight">5 oz./24</string>
     <string name="Franks_cayenne_price">541.200/22.500</string>
+
+
+    <!--The following is for Reynolds-related items-->
+    <string name="Reynolds_title">Reynolds</string>
+    <string name="Reynolds_foil">Aluminium Foil</string>
+    <string name="Reynolds_foil_label">Reynolds Standard Aluminium Foil (615)</string>
+    <string name="Reynolds_foil_weight">1 x 300 m x 45 cm</string>
+    <string name="Reynolds_foil_price">880.000</string>
+    <string name="Reynolds_pvc_film">PVC Film</string>
+    <string name="Reynolds_pvc_film_label">Reynolds PVC Film Dengan Side Cutter (904000 C)</string>
+    <string name="Reynolds_pvc_film_weight">Kecil: 1 x 300 m x 45 cm\n Besar: 1 x 600 m x 45 cm</string>
+    <string name="Reynolds_pvc_film_price">Kecil: 181.500\nBesar: 330.000</string>
+    <string name="Reynolds_cut_rite">Kertas Lilin</string>
+    <string name="Reynolds_cut_rite_label">Reynolds Cut Rite Wax Paper (T5982)</string>
+    <string name="Reynolds_cut_rite_weight">75 sq. ft./24</string>
+    <string name="Reynolds_cut_rite_price">583.000/24.292</string>
+    <string name="Reynolds_storage_bags">Kantong penyimpan</string>
+    <string name="Reynolds_storage_bags_label">Reynolds Zipper Storage Bags Medium (T5983)</string>
+    <string name="Reynolds_storage_bags_weight">25 bags/12</string>
+    <string name="Reynolds_storage_bags_price">352.000/29.333</string>
+    <string name="Reynolds_sandwich_bags">Kantong Sandwich</string>
+    <string name="Reynolds_sandwich_bags_label">Reynolds Zipper Sandwich Bags (T5984)</string>
+    <string name="Reynolds_sandwich_bags_weight">50 bags/12</string>
+    <string name="Reynolds_sandwich_bags_price">352.000/29.333</string>
+    <string name="Reynolds_cling">Cling Wrap</string>
+    <string name="Reynolds_cling_label">Reynolds Sure Seal Cling Wrap (T5985)</string>
+    <string name="Reynolds_cling_weight">100 sq. ft./24</string>
+    <string name="Reynolds_cling_price">638.000/26.483</string>
+    <string name="Reynolds_parchment">Kertas Parchment</string>
+    <string name="Reynolds_parchment_label">Reynolds Genuine Parchment Paper (T5986)</string>
+    <string name="Reynolds_parchment_weight">45 sq. ft./24</string>
+    <string name="Reynolds_parchment_price">1.320.000/55.000</string>
+    <string name="Reynolds_oven_turkey">Kantong Oven Kalkun</string>
+    <string name="Reynolds_oven_turkey_label">Reynolds Oven Bags Turkey</string>
+    <string name="Reynolds_oven_turkey_weight">2 bags/24</string>
+    <string name="Reynolds_oven_turkey_price">506.000/21.083</string>
+    <string name="Reynolds_oven_large">Kantong Oven Besar</string>
+    <string name="Reynolds_oven_large_label">Reynolds Oven Bags Large (T5988)</string>
+    <string name="Reynolds_oven_large_weight">5 bags/12</string>
+    <string name="Reynolds_oven_large_price">407.000/33.917</string>
 </resources>
