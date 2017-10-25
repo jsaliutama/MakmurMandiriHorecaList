@@ -164,5 +164,35 @@ public class AllItemsList extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Generate Chateau button
+        Button chateauButton = (Button)findViewById(R.id.buttonChateau);
+        chateauButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ChateauAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Log Cabin button
+        Button logButton = (Button)findViewById(R.id.buttonLogCabin);
+        logButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), LogCabinAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Maple Joe button
+        Button joeButton = (Button)findViewById(R.id.buttonJoe);
+        joeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MapleJoeAllItems.class);
+                startActivity(intent);
+            }
+        });
     }
 }

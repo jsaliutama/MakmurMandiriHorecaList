@@ -547,7 +547,45 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".AllItemsList" />
         </activity>
-        <activity android:name=".ReynoldsAllItems"></activity>
+        <activity
+            android:name=".ReynoldsAllItems"
+            android:label="@string/Reynolds_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".ChateauAllItems"
+            android:label="@string/Chateau_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".LogCabinAllItems"
+            android:label="@string/Log_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".MapleJoeAllItems"
+            android:label="@string/Joe_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity android:name=".JwAllItems" />
+        <activity android:name=".DericaAllItems" />
+        <activity android:name=".FrenchsAllItems"></activity>
     </application>
 
 </manifest>

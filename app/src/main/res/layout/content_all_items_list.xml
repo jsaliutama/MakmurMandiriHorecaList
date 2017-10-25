@@ -33,6 +33,14 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
         <Button
+            android:id="@+id/buttonChateau"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Chateau_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
             android:id="@+id/buttonCorniche"
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -97,10 +105,26 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
         <Button
+            android:id="@+id/buttonLogCabin"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Log_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonJoe"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Joe_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
             android:id="@+id/buttonReynolds"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:text="@string/Savis_title"
+            android:text="@string/Reynolds_title"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>

@@ -111,6 +111,7 @@
     <string name="AB_whole_kernel_price">280.500/11.688</string>
     <string name="AB_whole_mushroom">Whole Mushroom</string>
     <string name="AB_whole_mushroom_label">Ayam Brand Jamur Utuh Dalam Air Garam</string>
+    <string name="AB_whole_mushroom_price">386.650/16.111</string>
     <!--Category: Coconut milk-->
     <string name="AB_santan_nav">Ayam Brand > Santan</string>
     <string name="AB_santan">Santan</string>
@@ -321,6 +322,7 @@
     <string name="Jays_rub_seafood">Seafood</string>
     <string name="Jays_rub_seafood_label">Jay\'s GrillMaster Rub Magic Dry Rub</string>
 
+
     <!--The following is for Gryphon related actions-->
     <string name="Gryphon_title">Gryphon Tea</string>
     <string name="Gryphon_weight_price">2 gr/50 | 375.000/7.500</string>
@@ -379,6 +381,7 @@
     <string name="Gryphon_oolong_lily">Lily of The Field</string>
     <string name="Gryphon_oolong_lily_ingredients">Teh oolong, pucuk bunga lily, kayu putih, kelopak bunga marigold.</string>
 
+
     <!--The following is for Barilla related items-->
     <string name="Barilla_title">Barilla</string>
     <string name="Barilla_weight_25_500">500 gr/25</string>
@@ -436,6 +439,7 @@
     <string name="Barilla_tagliatelle_label">Barilla Tagliatelle</string>
     <string name="Barilla_tortiglioni_label">Barilla Tortiglioni</string>
 
+
     <!--The following is for Bertolli-related items-->
     <string name="Bertolli_title">Bertolli</string>
     <string name="Bertolli_packing_three">250mL/12 | 500mL/12 | 1L/6</string>
@@ -464,6 +468,7 @@
     <string name="Bertolli_vinegar_balsamic_label">Bertolli Balsamic Vinegar</string>
     <string name="Bertolli_vinegar_red_label">Bertolli Red Wine Vinegar</string>
     <string name="Bertolli_vinegar_white_label">Bertolli White Wine Vinegar</string>
+
 
     <!--The following is for Savis-related items-->
     <string name="Savis_title">Savis Tea</string>
@@ -561,7 +566,7 @@
     <string name="Savis_bag_japanese_matcha_weight">25x(50x2 g)</string>
     <string name="Savis_bag_japanese_matcha_price">121.000/2.420</string>
     <!--Loose tea-->
-    <!--Cateogyr: Savis loose classic-->
+    <!--Category: Savis loose classic-->
     <string name="Savis_loose_classic_nav">Savis > Loose > Teh Klasik</string>
     <string name="Savis_loose_classic_earl">Earl Grey</string>
     <string name="Savis_loose_classic_earl_label">Savis Earl Grey</string>
@@ -664,6 +669,7 @@
     <string name="Savis_loose_japanese_matcha_weight">500 gr</string>
     <string name="Savis_loose_japanese_matcha_price">NULL</string>
 
+
     <!--The following is for Spigadoro-related items-->
     <string name="Spigadoro_title">Spigadoro</string>
     <string name="Spigadoro_weight_10_500">500 gr/10</string>
@@ -691,7 +697,6 @@
     <string name="Spigadoro_b2_003">Spaghettini B2 003</string>
     <string name="Spigadoro_b2_003_price">319.440/13.310</string>
 
-    <!--The following is for Aek Chiong-related items-->
 
     <!--The following is for Lily-related items-->
     <string name="Lily_title">Lily Flower</string>
@@ -703,6 +708,7 @@
     <string name="Lily_salad_label">Lily Flower Salad Oil</string>
     <string name="Lily_salad_weight">3 L/6 | 18L</string>
     <string name="Lily_salad_price">3L : 495.000/82.500\n18L : 473.000</string>
+
 
     <!--The following is for Golden Bridge-related items-->
     <string name="GoldenBridge_title">Golden Bridge</string>
@@ -719,6 +725,7 @@
     <string name="GB_sunflower">Sunflower</string>
     <string name="GB_sunflower_label">Golden Bridge Sunflower Oil</string>
     <string name="GB_sunflower_price">1L : 528.000/44.000 \n2L : 495.000/82.500</string>
+
 
     <!--The following is for Corniche-related items-->
     <string name="Corniche_title">Corniche</string>
@@ -759,6 +766,7 @@
     <string name="Corniche_teddy_apple_weight">70 gr/24</string>
     <string name="Corniche_teddy_apple_price">187.110/7.796</string>
 
+
     <!--The following is for Diamond-related items-->
     <string name="Diamond_title">Diamond</string>
     <string name="Diamond_foil">Aluminium foil</string>
@@ -781,6 +789,7 @@
     <string name="Diamond_cling_label">Diamond Cling Wrap</string>
     <string name="Diamond_cling_size">100 sq. ft./24</string>
     <string name="Diamond_cling_price">385.000/16.042</string>
+
 
     <!--The following is for Heinz-related items-->
     <string name="Heinz_title">Heinz</string>
@@ -860,4 +869,256 @@
     <string name="Reynolds_oven_large_label">Reynolds Oven Bags Large (T5988)</string>
     <string name="Reynolds_oven_large_weight">5 bags/12</string>
     <string name="Reynolds_oven_large_price">407.000/33.917</string>
+
+
+    <!--The following is for Chateau Premiere-related items-->
+    <string name="Chateau_title">Chateau Premiere</string>
+    <string name="Chateau_weight">750 mL/12</string>
+    <string name="Chateau_white">White Grape</string>
+    <string name="Chateau_white_label">Chateau Premiere Sparkling White Grape Juice</string>
+    <string name="Chateau_white_price">385.000/32.083</string>
+    <string name="Chateau_red">Red Grape</string>
+    <string name="Chateau_red_label">Chateau Premiere Sparkling Red Grape Juice</string>
+    <string name="Chateau_red_price">385.000/32.083</string>
+
+
+    <!--The following is for De Rica-related items-->
+    <string name="DeRica_title">De Rica</string>
+    <string name="DeRica_tomato">Tomat</string>
+    <string name="DeRica_tomato_label">De Rica Whole Peeled Tomatoes</string>
+    <string name="DeRica_tomato_weight">2550 gr/6</string>
+    <string name="DeRica_tomato_price">385.000/64.167</string>
+
+
+    <!--The following is for Log Cabin-related items-->
+    <string name="Log_title">Log Cabin</string>
+    <string name="Log_country">Country Kitchen</string>
+    <string name="Log_country_label">Log Cabin Country Kitchen Syrup</string>
+    <string name="Log_country_weight">24 oz./12</string>
+    <string name="Log_country_price">506.000/42.167</string>
+    <string name="Log_original">Original</string>
+    <string name="Log_original_label">Log Cabin Original Syrup</string>
+    <string name="Log_original_weight">24 oz./12</string>
+    <string name="Log_original_price">660.000/55.000</string>
+
+
+    <!--The following is for Maple Joe-related items-->
+    <string name="Joe_title">Maple Joe</string>
+    <string name="Joe_syrup">Maple Syrup</string>
+    <string name="Joe_syrup_label">Maple Joe Maple Syrup</string>
+    <string name="Joe_syrup_weight">250 gr/12</string>
+    <string name="Joe_syrup_price">990.000/82.500</string>
+
+
+    <!--The following is for JW-related items-->
+    <string name="JW_apple">Apple Juice</string>
+    <string name="JW_apple_label">J &amp; W Sparkling Apple Juice</string>
+    <string name="JW_apple_weight">750 mL/6</string>
+    <string name="JW_apple_price">308.000/51.333</string>
+    <string name="JW_red_grape">Red Grape</string>
+    <string name="JW_red_grape_label">J &amp; W Sparkling Red Grape Juice</string>
+    <string name="JW_red_grape_weight">750 mL/6</string>
+    <string name="JW_red_grape_price">308.000/51.333</string>
+    <string name="JW_white_grape">White Grape</string>
+    <string name="JW_white_grape_label">J &amp; W Sparkling White Grape Juice</string>
+    <string name="JW_white_grape_weight">750 mL/6</string>
+    <string name="JW_white_grape_price">308.000/51.333</string>
+    <string name="JW_apple_celebration">Apple Celebration</string>
+    <string name="JW_apple_celebration_label">J &amp; W Sparkling Apple Celebration</string>
+    <string name="JW_apple_celebration_weight">750 mL/12</string>
+    <string name="JW_apple_celebration_price">346.500/28.875</string>
+    <string name="JW_rose_celebration">Rose Celebration</string>
+    <string name="JW_rose_celebration_label">J &amp; W Sparkling Rose Celebration</string>
+    <string name="JW_rose_celebration_weight">750 mL/12</string>
+    <string name="JW_rose_celebration_price">346.500/28.875</string>
+    <string name="JW_pink_cocktail">Pink Cocktail</string>
+    <string name="JW_pink_cocktail_label">J &amp; W Sparkling Pink Cocktail</string>
+    <string name="JW_pink_cocktail_weight">750 mL/12</string>
+    <string name="JW_pink_cocktail_price">346.500/28.875</string>
+    <string name="JW_blue_cocktail">Blue Cocktail</string>
+    <string name="JW_blue_cocktail_label">J &amp; W Sparkling Blue Cocktail</string>
+    <string name="JW_blue_cocktail_weight">750 mL/12</string>
+    <string name="JW_blue_cocktail_price">346.500/28.875</string>
+    <string name="JW_red_cocktail">Red Cocktail</string>
+    <string name="JW_red_cocktail_label">J &amp; W Sparkling Red Cocktail</string>
+    <string name="JW_red_cocktail_weight">750 mL/12</string>
+    <string name="JW_red_cocktail_price">346.500/28.875</string>
+    <string name="JW_purple_cocktail">Purple Cocktail</string>
+    <string name="JW_purple_cocktail_label">J &amp; W Sparkling Purple Cocktail</string>
+    <string name="JW_purple_cocktail_weight">750 mL/12</string>
+    <string name="JW_purple_cocktail_price">346.500/28.875</string>
+
+
+    <!--The following is for Sunny Perfect-related items-->
+    <string name="Sunny_title">Sunny Perfect</string>
+    <string name="Sunny_prunes">Plum Kering</string>
+    <string name="Sunny_prunes_label">Sunny Perfect California Pitted Prunes (Plum kering tanpa biji)</string>
+    <string name="Sunny_prunes_weight">250 gr/24</string>
+    <string name="Sunny_prunes_price">858.000/35.750</string>
+
+
+    <!--The following is for Lindsay-related items-->
+    <string name="Lindsay_title">Lindsay</string>
+    <string name="Lindsay_pitted_olive">Pitted Olives</string>
+    <string name="Lindsay_pitted_olive_label">Lindsay Ripe Pitted Olives (Zaitun hitam)</string>
+    <string name="Lindsay_pitted_olive_weight">M: 6 oz./24\nL: 6 oz./24 | 51 oz./6</string>
+    <string name="Lindsay_pitted_olive_price">M: 605.000/25.208\nL: 6 oz.: 605.000/25.208\n   51 oz.:990.000/165.000</string>
+    <string name="Lindsay_spanish">Lindsay Spanish Manzanilla Olives</string>
+    <string name="Lindsay_spanish_label">Lindsay Spanish Manzanilla Olives Pimiento Stuffed (Zaitun dengan pimiento)</string>
+    <string name="Lindsay_spanish_weight">5.75 oz./12 | 5 oz./12 | 10 oz./12</string>
+    <string name="Lindsay_spanish_price">5.75 oz.: 330.000/27.500\n5 oz.: 330.000/27.500\n10 oz.: 495.000/41.250</string>
+    <string name="Lindsay_queen_pimiento">Queen olives dengan pimiento</string>
+    <string name="Lindsay_queen_pimiento_label">Lindsay Spanish Queen Olives Pimiento Stuffed (Zaitun dengan pimiento)</string>
+    <string name="Lindsay_queen_pimiento_weight">7 oz./12</string>
+    <string name="Lindsay_queen_pimiento_price">660.000/55.000</string>
+    <string name="Lindsay_queen_pits">Queen olives dengan biji</string>
+    <string name="Lindsay_queen_pits_label">Lindsay Queen Olives with Pits</string>
+    <string name="Lindsay_queen_pits_weight">5 oz./12</string>
+    <string name="Lindsay_queen_pits_price">594.000/49.500</string>
+    <string name="Lindsay_jalapeno">Olives dengan jalapeno</string>
+    <string name="Lindsay_jalapeno_label">Lindsay Spicy Jalapeno Stuffed Queen Olives (Zaitun dengan cabe jalapeno)</string>
+    <string name="Lindsay_jalapeno_weight">4.5 oz./12</string>
+    <string name="Lindsay_jalapeno_price">770.000/64.167</string>
+    <string name="Lindsay_garlic">Olives dengan bawang putih</string>
+    <string name="Lindsay_garlic_label">Lindsay Punchy Garlic Stuffed Queen Olives (Zaitun dengan bawang putih)</string>
+    <string name="Lindsay_garlic_weight">4.5 oz./12</string>
+    <string name="Lindsay_garlic_price">770.000/64.167</string>
+    <string name="Lindsay_greek">Greek Kalamata</string>
+    <string name="Lindasy_greek_label">Lindsay Greek Calamata Olives With Pits</string>
+    <string name="Lindsay_greek_weight">6 oz./12</string>
+    <string name="Lindsay_greek_price">990.000/82.500</string>
+    <string name="Lindsay_cocktail">Cocktail Onion</string>
+    <string name="Lindsay_cocktail_label">Lindsay Cocktail Onion</string>
+    <string name="Lindsay_cocktail_weight">16 oz./12</string>
+    <string name="Lindsay_cocktail_price">440.000/36.667</string>
+    <string name="Lindsay_capers">Capers Non Pareil</string>
+    <string name="Lindsay_capers_label">Lindsay Capers Non Pareil</string>
+    <string name="Lindsay_capers_weight">3.75 oz./12</string>
+    <string name="Lindsay_capers_price">407.000/33.917</string>
+    <string name="Lindsay_almond">Olive dengan almond</string>
+    <string name="Lindsay_almond_label">Lindsay Almond Stuffed Queen Olives</string>
+    <string name="Lindsay_almond_weight">4.5 oz./12</string>
+    <string name="Lindsay_almond_price">770.000/64.167</string>
+
+
+    <!--The following is for Cirio-related items-->
+    <string name="Cirio_title">Cirio</string>
+    <string name="Cirio_tomatoes">Tomat kupas</string>
+    <string name="Cirio_tomatoes_whole_label">Cirio Whole Peeled Tomatoes (Pelati)</string>
+    <string name="Cirio_tomatoes_whole_weight">400 gr./12 | 2500 gr./6</string>
+    <string name="Cirio_tomatoes_whole_price">400 gr.: 220.000/18.333\n2500 gr.: 277.200/46.200</string>
+    <string name="Cirio_tomatoes_chopped">Tomat dadu</string>
+    <string name="Cirio_tomatoes_chopped_label">Cirio Chopped Tomatoes (Polpa)</string>
+    <string name="Cirio_tomatoes_chopeed_weight">400 gr./12</string>
+    <string name="Cirio_tomatoes_chopped_price">220.000/18.333</string>
+    <string name="Cirio_passata">Tomat passata</string>
+    <string name="Cirio_passata_label">Cirio Passata Tomatoes</string>
+    <string name="Cirio_passata_weight">350 gr./12 | 700 gr./12</string>
+    <string name="Cirio_passata_price">350 gr: 198.000/16.500\n700 gr: 330.000/27.500</string>
+    <string name="Cirio_kidney">Kacang merah</string>
+    <string name="Cirio_kidney_label">Cirio Red Kidney Beans</string>
+    <string name="Cirio_kidney_weight">400 gr./12</string>
+    <string name="Cirio_kidney_price">187.000/15.583</string>
+    <string name="Cirio_cannelini">Kacang cannelini</string>
+    <string name="Cirio_cannelini_label">Cirio Cannelini Beans</string>
+    <string name="Cirio_cannelini_weight">400 gr./12</string>
+    <string name="Cirio_cannelini_price">187.000/15.583</string>
+    <string name="Cirio_fagioli">Kacang fagioli borlotti</string>
+    <string name="Cirio_fagioli_label">Cirio Fagioli Borlotti Beans</string>
+    <string name="Cirio_fagioli_weight">410 gr./12</string>
+    <string name="Cirio_fagioli_price">187.000/15.583</string>
+    <string name="Cirio_piselli">Kacang piselli</string>
+    <string name="Cirio_piselli_label">Cirio Piselli Medi/Garden Peas</string>
+    <string name="Cirio_piselli_weight">410 gr./12</string>
+    <string name="Cirio_piselli_price">187.000/15.583</string>
+    <string name="Cirio_ceci">Kacang ceci</string>
+    <string name="Cirio_ceci_label">Cirio Ceci (Chick peas)</string>
+    <string name="Cirio_ceci_weight">400 gr./12</string>
+    <string name="Cirio_ceci_price">187.000/15.583</string>
+    <string name="Cirio_blanchi">Blanchi spagna</string>
+    <string name="Cirio_blanchi_label">Cirio Blanchi Spagna (Butter Beans)</string>
+    <string name="Cirio_blanchi_weight">400 gr./12</string>
+    <string name="Cirio_blanchi_price">187.000/15.583</string>
+    <string name="Cirio_puree">Puree tomat</string>
+    <string name="Cirio_puree_label">Cirio Tomato Puree</string>
+    <string name="Cirio_puree_weight">350 gr./12</string>
+    <string name="Cirio_puree_price">220.000/18.333</string>
+
+
+    <!--The following is for Cattlemen-related items-->
+    <string name="Cattlemen_title">Cattlemen\'s</string>
+    <string name="Cattlemen_mississippi">Mississippi Sauce</string>
+    <string name="Cattlemen_mississippi_label">Cattlemen\'s Golden Honey BBQ Mississippi Sauce</string>
+    <string name="Cattlemen_mississippi_weight">18 oz./12</string>
+    <string name="Cattlemen_mississippi_price">418.000/34.833</string>
+    <string name="Cattlemen_carolina">Carolina Sauce</string>
+    <string name="Cattlemen_carolina_label">Cattlemen\'s Carolina Tangy Gold BBQ Sauce</string>
+    <string name="Cattlemen_carolina_weight">18 oz./12</string>
+    <string name="Cattlemen_carolina_price">418.000/34.833</string>
+    <string name="Cattlemen_kansas">Kansas Sauce</string>
+    <string name="Cattlemen_kansas_label">Cattlemen\'s Kansas City Classic BBQ Sauce </string>
+    <string name="Cattlemen_kansas_weight">18 oz./12 | 1 gal./4 | 5 gal.</string>
+    <string name="Cattlemen_kansas_price">18 oz.: 418.000/34.833\n1 gal.: 935.000/233.750\n5 gal.: 990.000</string>
+    <string name="Cattlemen_memphis">Memphis Sauce</string>
+    <string name="Cattlemen_memphis_label">Cattlemen\'s Memphis Sweet BBQ Sauce</string>
+    <string name="Cattlemen_memphis_weight">18 oz./12</string>
+    <string name="Cattlemen_memphis_price">418.000/34.833</string>
+    <string name="Cattlemen_smoke">Smoky BBQ Sauce</string>
+    <string name="Cattlemen_smoke_label">Cattlemen\'s Smoky Base BBQ Sauce</string>
+    <string name="Cattlemen_smoke_weight">1 gal./4</string>
+    <string name="Cattlemen_smoke_price">935.000/233.750</string>
+
+
+    <!--The following is for French's-related items-->
+    <string name="French_title">French\'s Sauce</string>
+    <string name="French_classic">Classic yellow mustard</string>
+    <string name="French_classic_label">French\'s Classi Yellow Mustard</string>
+    <string name="French_classic_weight">Glass: 6 oz./24 | 9 oz./24\nGallon: 105 oz./4\nSqueeze: 8 oz./20 | 14 oz./16</string>
+    <string name="French_classic_price">Glass: 6 oz.: 440.000/18.333 | 9 oz.: 550.000/22.917\nGallon: 412.500/103.125\nSqueeze: 8 oz.: 517.000/25.850 | 14 oz.: 528.000/33.000</string>
+    <string name="French_dijon">Dijon mustard</string>
+    <string name="French_dijon_label">French\'s Dijon Mustard</string>
+    <string name="French_dijon_weight">12 oz./12</string>
+    <string name="French_dijon_price">572.000/47.667</string>
+    <string name="French_honey_dijon">Honey Dijon mustard</string>
+    <string name="French_honey_dijon_label">French\'s Honey Dijon Mustard</string>
+    <string name="French_honey_dijon_weight">12 oz./12</string>
+    <string name="French_honey_dijon_price">572.000/47.667</string>
+    <string name="French_honey">Honey mustard</string>
+    <string name="French_honey_label">French\'s Honey Mustard</string>
+    <string name="French_honey_weight">12 oz./12</string>
+    <string name="French_honey_price">572.000/47.667</string>
+    <string name="French_spicy">Spicy mustard</string>
+    <string name="French_spicy_label">French\'s Spicy Brown Mustard</string>
+    <string name="French_spicy_weight">Glass: 9 oz./12\nSqueeze: 12 oz./12</string>
+    <string name="French_spicy_price">Glass: 280.500/23.375\nSqueeze: 352.000/29.333</string>
+    <string name="French_worcestershire">Worcestershire sauce</string>
+    <string name="French_worcestershire_label">French\'s Worcestershire Sauce</string>
+    <string name="French_worcestershire_weight">5 oz./12 | 10 oz./12</string>
+    <string name="French_worcestershire_price">5 oz.: 187.000/15.583\n10 oz.: 308.000/25.667</string>
+
+
+    <!--The following is for Vlassic-related items-->
+    <string name="Vlasic_title">Vlasic</string>
+    <string name="Vlasic_dill">Dill utuh</string>
+    <string name="Vlasic_dill_label">Vlasic Kosher Dill Wholes</string>
+    <string name="Vlasic_dill_weight">32 oz./12</string>
+    <string name="Vlasic_dill_price">660.000/55.000</string>
+    <string name="Vlasic_dill_baby">Baby dill utuh</string>
+    <string name="Vlasic_dill_baby_label">Vlasic Kosher Baby Dill Wholes</string>
+    <string name="Vlasic_midgets">Sweet midgets</string>
+    <string name="Vlasic_midgets_label">Vlasic Sweet Midgets</string>
+    <string name="Vlasic_midgets_weight">16 oz./12</string>
+    <string name="Vlasic_midgets_price">770.000/64.167</string>
+    <string name="Vlasic_gherkins">Sweet gherkins</string>
+    <string name="Vlasic_gherkins_label">Vlasic Sweet Gherkins</string>
+    <string name="Vlasic_gherkins_weight">16 oz./12</string>
+    <string name="Vlasic_gherkins_price">770.000/64.167</string>
+    <string name="Vlasic_relish">Relish</string>
+    <string name="Vlasic_relish_label">Vlasic Hot Dog Relish</string>
+    <string name="Vlasic_relish_weight">10 oz./12</string>
+    <string name="Vlasic_relish_price">440.000/36.667</string>
+
+
+    <!--The following is for Mae Ploy-related items-->
+    <string name="MaePloy_title">Mae Ploy</string>
 </resources>

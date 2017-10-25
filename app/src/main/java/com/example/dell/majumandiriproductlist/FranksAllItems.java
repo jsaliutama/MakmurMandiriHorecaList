@@ -72,7 +72,35 @@ public class FranksAllItems extends AppCompatActivity {
         cayenne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                btnOnClick(cayenne);
+            }
+        });
 
+        buffalo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(buffalo);
+            }
+        });
+
+        hotBuffalo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(buffalo);
+            }
+        });
+
+        sweetHeat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(sweetHeat);
+            }
+        });
+
+        sweetChili.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(sweetChili);
             }
         });
     }

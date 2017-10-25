@@ -2,8 +2,8 @@ package com.example.dell.majumandiriproductlist;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -205,7 +205,7 @@ public class AbVeggies extends AppCompatActivity {
                     imageView.setImageResource(R.drawable.ab_mushroom_l);
                     textNameEdit.setText(R.string.AB_whole_mushroom_label);
                     textWeightEdit.setText(R.string.AB_weight_24_420);
-                    textPerCrtEdit.setText(R.string.AB_whole_mushroom);
+                    textPerCrtEdit.setText(R.string.AB_whole_mushroom_price);
                     break;
             }
             //Setup close button
