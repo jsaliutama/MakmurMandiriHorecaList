@@ -585,7 +585,10 @@
         </activity>
         <activity android:name=".JwAllItems" />
         <activity android:name=".DericaAllItems" />
-        <activity android:name=".FrenchsAllItems"></activity>
+        <activity android:name=".FrenchsAllItems" />
+        <activity android:name=".SunnyAllItems" />
+        <activity android:name=".CirioAllItems" />
+        <activity android:name=".VlasicAllItems"></activity>
     </application>
 
 </manifest>

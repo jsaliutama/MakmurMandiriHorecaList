@@ -1003,13 +1003,13 @@
 
     <!--The following is for Cirio-related items-->
     <string name="Cirio_title">Cirio</string>
-    <string name="Cirio_tomatoes">Tomat kupas</string>
+    <string name="Cirio_tomatoes_whole">Tomat kupas</string>
     <string name="Cirio_tomatoes_whole_label">Cirio Whole Peeled Tomatoes (Pelati)</string>
     <string name="Cirio_tomatoes_whole_weight">400 gr./12 | 2500 gr./6</string>
     <string name="Cirio_tomatoes_whole_price">400 gr.: 220.000/18.333\n2500 gr.: 277.200/46.200</string>
     <string name="Cirio_tomatoes_chopped">Tomat dadu</string>
     <string name="Cirio_tomatoes_chopped_label">Cirio Chopped Tomatoes (Polpa)</string>
-    <string name="Cirio_tomatoes_chopeed_weight">400 gr./12</string>
+    <string name="Cirio_tomatoes_chopped_weight">400 gr./12</string>
     <string name="Cirio_tomatoes_chopped_price">220.000/18.333</string>
     <string name="Cirio_passata">Tomat passata</string>
     <string name="Cirio_passata_label">Cirio Passata Tomatoes</string>
@@ -1105,6 +1105,8 @@
     <string name="Vlasic_dill_price">660.000/55.000</string>
     <string name="Vlasic_dill_baby">Baby dill utuh</string>
     <string name="Vlasic_dill_baby_label">Vlasic Kosher Baby Dill Wholes</string>
+    <string name="Vlasic_dill_baby_weight">16 oz./12</string>
+    <string name="Vlasic_dill_baby_price">506.000/42.167</string>
     <string name="Vlasic_midgets">Sweet midgets</string>
     <string name="Vlasic_midgets_label">Vlasic Sweet Midgets</string>
     <string name="Vlasic_midgets_weight">16 oz./12</string>
