@@ -34,6 +34,14 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
         <Button
+            android:id="@+id/buttonCattlemen"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Cattlemen_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
             android:id="@+id/buttonChateau"
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -42,10 +50,34 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
         <Button
+            android:id="@+id/buttonCirio"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Cirio_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
             android:id="@+id/buttonCorniche"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Corniche_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonCostadoro"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Costadoro_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonDerica"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/DeRica_title"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
@@ -62,6 +94,14 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Franks_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonFrench"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/French_title"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
@@ -98,10 +138,26 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
         <Button
+            android:id="@+id/buttonJW"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/JW_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
             android:id="@+id/buttonLily"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Lily_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonLindsay"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Lindsay_title"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
@@ -118,6 +174,14 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Joe_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonMaePloy"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/MaePloy_title"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>
@@ -142,6 +206,22 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:text="@string/Spigadoro_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonSunny"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Sunny_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:id="@+id/buttonVlasic"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/Vlasic_title"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"/>

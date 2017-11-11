@@ -911,6 +911,7 @@
 
 
     <!--The following is for JW-related items-->
+    <string name="JW_title">J &amp; W</string>
     <string name="JW_apple">Apple Juice</string>
     <string name="JW_apple_label">J &amp; W Sparkling Apple Juice</string>
     <string name="JW_apple_weight">750 mL/6</string>
@@ -984,7 +985,7 @@
     <string name="Lindsay_garlic_weight">4.5 oz./12</string>
     <string name="Lindsay_garlic_price">770.000/64.167</string>
     <string name="Lindsay_greek">Greek Kalamata</string>
-    <string name="Lindasy_greek_label">Lindsay Greek Calamata Olives With Pits</string>
+    <string name="Lindsay_greek_label">Lindsay Greek Calamata Olives With Pits</string>
     <string name="Lindsay_greek_weight">6 oz./12</string>
     <string name="Lindsay_greek_price">990.000/82.500</string>
     <string name="Lindsay_cocktail">Cocktail Onion</string>
@@ -1123,4 +1124,36 @@
 
     <!--The following is for Mae Ploy-related items-->
     <string name="MaePloy_title">Mae Ploy</string>
+    <string name="MaePloy_green">Green Curry</string>
+    <string name="MaePloy_green_label">Mae Ploy Green Curry Paste</string>
+    <string name="MaePloy_green_weight">400 gr./12</string>
+    <string name="MaePloy_green_price">504.000/42.000</string>
+    <string name="MaePloy_red">Red Curry</string>
+    <string name="MaePloy_red_label">Mae Ploy Red Curry Paste</string>
+    <string name="MaePloy_red_weight">400 gr./12</string>
+    <string name="MaePloy_red_price">504.000/42.000</string>
+    <string name="MaePloy_tomyum">Tom Yum</string>
+    <string name="MaePloy_tomyum_label">Mae Ploy Tom Yum Paste</string>
+    <string name="MaePloy_tomyum_weight">400 gr./12</string>
+    <string name="MaePloy_tomyum_price">1.008.000/42.000</string>
+    <string name="MaePloy_sweet">Sweet Chili Sauce</string>
+    <string name="MaePloy_sweet_label">Mae Ploy Sweet Chili Sauce for Dipping</string>
+    <string name="MaePloy_sweet_weight">S: 350 gr./24\nL: 920 gr./12</string>
+    <string name="MaePloy_sweet_price">S: 696.000/29.000\nL: 624.000/52.000</string>
+    <string name="MaePloy_thai">Thai Dressing</string>
+    <string name="MaePloy_thai_label">Mae Ploy Thai Salad Dressing</string>
+    <string name="MaePloy_thai_weight">S: 285 mL/12\nL: 710 mL/12</string>
+    <string name="MaePloy_thai_price">S: 276.000/23.000\nL: 612.000/51.000</string>
+
+
+    <!--The following is for CostaDoro-related items-->
+    <string name="Costadoro_title">Costa d\'Oro</string>
+    <string name="Costadoro_virgin">Extra Virgin</string>
+    <string name="Costadoro_virgin_label">Costa d\'Oro Extra Virgin Olive Oil</string>
+    <string name="Costadoro_virgin_weight">5 L/4</string>
+    <string name="Costadoro_virgin_price">1.800.000/450.000</string>
+    <string name="Costadoro_pomace">Pomace</string>
+    <string name="Costadoro_pomace_label">Costa d\'Oro Pomace Olive Oil</string>
+    <string name="Costadoro_pomace_weight">5 L/4</string>
+    <string name="Costadoro_pomace_price">1.120.000/280.000</string>
 </resources>

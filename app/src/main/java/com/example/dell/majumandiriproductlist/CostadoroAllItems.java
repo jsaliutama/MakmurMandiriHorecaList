@@ -11,12 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class VlasicAllItems extends AppCompatActivity {
-
+public class CostadoroAllItems extends AppCompatActivity {
     //Constants
     final String WHITE = "#ffffff";
     final String BLACK = "#000000";
@@ -25,81 +24,51 @@ public class VlasicAllItems extends AppCompatActivity {
     final float BACKGROUND_DIM = 0.7f;
     final float BACKGROUND_GONE = 0.0f;
 
-    ScrollView contentLayout;
+    LinearLayout contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
-    int[] buttonList = {R.id.buttonVlasicDill,
-            R.id.buttonVlasicDillBaby,
-            R.id.buttonVlasicGherkins,
-            R.id.buttonVlasicMidgets,
-            R.id.buttonVlasicRelish
+    int[] buttonList = {R.id.buttonCostadoroPomace,
+            R.id.buttonCostadoroVirgin
     };
     ImageView imageView;
     TextView textNameEdit;
     TextView textWeightEdit;
     TextView textPerCrtEdit;
 
-    Button dill;
-    Button baby;
-    Button gherkins;
-    Button midgets;
-    Button relish;
+    Button pomace;
+    Button virgin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vlasic_all_items);
+        setContentView(R.layout.activity_costadoro_all_items);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarVlasicAllItems);
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarCostadoroAllItems);
         setSupportActionBar(toolbar);
 
         if (getSupportActionBar() != null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        //Set background
-        contentLayout = (ScrollView)findViewById(R.id.vlasicContentLayout);
+        //Setup layout
+        contentLayout = (LinearLayout) findViewById(R.id.costadoroContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
-        //Set buttons
-        dill = (Button)findViewById(R.id.buttonVlasicDill);
-        baby = (Button)findViewById(R.id.buttonVlasicDillBaby);
-        gherkins = (Button)findViewById(R.id.buttonVlasicGherkins);
-        midgets = (Button)findViewById(R.id.buttonVlasicMidgets);
-        relish = (Button)findViewById(R.id.buttonVlasicRelish);
+        //Setup buttons
+        pomace = (Button)findViewById(R.id.buttonCostadoroPomace);
+        virgin = (Button)findViewById(R.id.buttonCostadoroVirgin);
 
-        dill.setOnClickListener(new View.OnClickListener() {
+        pomace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(dill);
+                btnOnClick(pomace);
             }
         });
 
-        baby.setOnClickListener(new View.OnClickListener() {
+        virgin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(baby);
-            }
-        });
-
-        gherkins.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btnOnClick(gherkins);
-            }
-        });
-
-        midgets.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btnOnClick(midgets);
-            }
-        });
-
-        relish.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btnOnClick(relish);
+                btnOnClick(virgin);
             }
         });
     }
@@ -119,7 +88,7 @@ public class VlasicAllItems extends AppCompatActivity {
             Helpers helpers = new Helpers(getApplicationContext());
 
             //Show the popup window
-            LayoutInflater inflater = (LayoutInflater)VlasicAllItems.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater)CostadoroAllItems.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.popup, (ViewGroup)findViewById(R.id.popup_element));
             popUpWindow = new PopupWindow(layout, helpers.dpToPx(600), helpers.dpToPx(750)); //(context, width, height)
             popUpWindow.showAtLocation(layout, Gravity.CENTER, 0, 0); //(layout, gravity, x, y)
@@ -130,35 +99,17 @@ public class VlasicAllItems extends AppCompatActivity {
             textWeightEdit = (TextView)layout.findViewById(R.id.textWeightEdit);
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
-                case R.id.buttonVlasicDill:
+                case R.id.buttonCostadoroPomace:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_dill_label);
-                    textWeightEdit.setText(R.string.Vlasic_dill_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_dill_price);
+                    textNameEdit.setText(R.string.Costadoro_pomace_label);
+                    textWeightEdit.setText(R.string.Costadoro_pomace_weight);
+                    textPerCrtEdit.setText(R.string.Costadoro_pomace_price);
                     break;
-                case R.id.buttonVlasicDillBaby:
+                case R.id.buttonCostadoroVirgin:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_dill_baby_label);
-                    textWeightEdit.setText(R.string.Vlasic_dill_baby_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_dill_baby_price);
-                    break;
-                case R.id.buttonVlasicGherkins:
-                    imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_gherkins_label);
-                    textWeightEdit.setText(R.string.Vlasic_gherkins_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_gherkins_price);
-                    break;
-                case R.id.buttonVlasicMidgets:
-                    imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_midgets_label);
-                    textWeightEdit.setText(R.string.Vlasic_midgets_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_midgets_price);
-                    break;
-                case R.id.buttonVlasicRelish:
-                    imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_relish_label);
-                    textWeightEdit.setText(R.string.Vlasic_relish_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_relish_price);
+                    textNameEdit.setText(R.string.Costadoro_virgin_label);
+                    textWeightEdit.setText(R.string.Costadoro_virgin_weight);
+                    textPerCrtEdit.setText(R.string.Costadoro_virgin_price);
                     break;
             }
             //Setup close button

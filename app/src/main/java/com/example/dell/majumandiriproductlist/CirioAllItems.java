@@ -63,6 +63,10 @@ public class CirioAllItems extends AppCompatActivity {
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarCirioAllItems);
         setSupportActionBar(toolbar);
 
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
+
         //Set background
         contentLayout = (ScrollView)findViewById(R.id.cirioContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));

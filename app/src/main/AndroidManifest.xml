@@ -583,12 +583,96 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".AllItemsList" />
         </activity>
-        <activity android:name=".JwAllItems" />
-        <activity android:name=".DericaAllItems" />
-        <activity android:name=".FrenchsAllItems" />
-        <activity android:name=".SunnyAllItems" />
-        <activity android:name=".CirioAllItems" />
-        <activity android:name=".VlasicAllItems"></activity>
+        <activity
+            android:name=".JwAllItems"
+            android:label="@string/JW_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".DericaAllItems"
+            android:label="@string/DeRica_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".FrenchsAllItems"
+            android:label="@string/French_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".SunnyAllItems"
+            android:label="@string/Sunny_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".CirioAllItems"
+            android:label="@string/Cirio_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".VlasicAllItems"
+            android:label="@string/Vlasic_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".CattlemenAllItems"
+            android:label="@string/Cattlemen_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".LindsayAllItems"
+            android:label="@string/Lindsay_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".MaePloyAllItems"
+            android:label="@string/MaePloy_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
+        <activity
+            android:name=".CostadoroAllItems"
+            android:label="@string/Costadoro_title"
+            android:parentActivityName=".AllItemsList"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AllItemsList" />
+        </activity>
     </application>
 
 </manifest>

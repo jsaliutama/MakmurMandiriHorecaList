@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:id="@+id/logCabinContentLayout"
+    android:id="@+id/costadoroContentLayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -8,21 +8,21 @@
     android:paddingTop="65dp"
     android:paddingBottom="10dp">
     <Button
-        android:id="@+id/buttonLogCabinCountry"
+        android:id="@+id/buttonCostadoroPomace"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/Log_country"
+        android:text="@string/Costadoro_pomace"
         android:drawableStart="@drawable/ic_unknown"/>
     <Button
-        android:id="@+id/buttonLogCabinOriginal"
+        android:id="@+id/buttonCostadoroVirgin"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/Log_original"
+        android:text="@string/Costadoro_virgin"
         android:drawableStart="@drawable/ic_unknown"/>
 </LinearLayout>

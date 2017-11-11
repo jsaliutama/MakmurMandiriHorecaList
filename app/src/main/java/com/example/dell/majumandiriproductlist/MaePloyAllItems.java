@@ -15,8 +15,7 @@ import android.widget.PopupWindow;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class VlasicAllItems extends AppCompatActivity {
-
+public class MaePloyAllItems extends AppCompatActivity {
     //Constants
     final String WHITE = "#ffffff";
     final String BLACK = "#000000";
@@ -28,29 +27,28 @@ public class VlasicAllItems extends AppCompatActivity {
     ScrollView contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
-    int[] buttonList = {R.id.buttonVlasicDill,
-            R.id.buttonVlasicDillBaby,
-            R.id.buttonVlasicGherkins,
-            R.id.buttonVlasicMidgets,
-            R.id.buttonVlasicRelish
+    int[] buttonList = {R.id.buttonMaePloyGreen,
+            R.id.buttonMaePloyRed,
+            R.id.buttonMaePloySweet,
+            R.id.buttonMaePloyThai,
+            R.id.buttonMaePloyTomyum
     };
     ImageView imageView;
     TextView textNameEdit;
     TextView textWeightEdit;
     TextView textPerCrtEdit;
 
-    Button dill;
-    Button baby;
-    Button gherkins;
-    Button midgets;
-    Button relish;
-
+    Button green;
+    Button red;
+    Button sweet;
+    Button thai;
+    Button tomyum;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vlasic_all_items);
+        setContentView(R.layout.activity_mae_ploy_all_items);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarVlasicAllItems);
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarMaePloyAllItems);
         setSupportActionBar(toolbar);
 
         if (getSupportActionBar() != null){
@@ -58,48 +56,48 @@ public class VlasicAllItems extends AppCompatActivity {
         }
 
         //Set background
-        contentLayout = (ScrollView)findViewById(R.id.vlasicContentLayout);
+        contentLayout = (ScrollView)findViewById(R.id.maePloyContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
-        //Set buttons
-        dill = (Button)findViewById(R.id.buttonVlasicDill);
-        baby = (Button)findViewById(R.id.buttonVlasicDillBaby);
-        gherkins = (Button)findViewById(R.id.buttonVlasicGherkins);
-        midgets = (Button)findViewById(R.id.buttonVlasicMidgets);
-        relish = (Button)findViewById(R.id.buttonVlasicRelish);
+        //Set button
+        green = (Button)findViewById(R.id.buttonMaePloyGreen);
+        red = (Button)findViewById(R.id.buttonMaePloyRed);
+        sweet = (Button)findViewById(R.id.buttonMaePloySweet);
+        thai = (Button)findViewById(R.id.buttonMaePloyThai);
+        tomyum = (Button)findViewById(R.id.buttonMaePloyTomyum);
 
-        dill.setOnClickListener(new View.OnClickListener() {
+        green.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(dill);
+                btnOnClick(green);
             }
         });
 
-        baby.setOnClickListener(new View.OnClickListener() {
+        red.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(baby);
+                btnOnClick(red);
             }
         });
 
-        gherkins.setOnClickListener(new View.OnClickListener() {
+        sweet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(gherkins);
+                btnOnClick(sweet);
             }
         });
 
-        midgets.setOnClickListener(new View.OnClickListener() {
+        thai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(midgets);
+                btnOnClick(thai);
             }
         });
 
-        relish.setOnClickListener(new View.OnClickListener() {
+        tomyum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(relish);
+                btnOnClick(tomyum);
             }
         });
     }
@@ -119,7 +117,7 @@ public class VlasicAllItems extends AppCompatActivity {
             Helpers helpers = new Helpers(getApplicationContext());
 
             //Show the popup window
-            LayoutInflater inflater = (LayoutInflater)VlasicAllItems.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater)MaePloyAllItems.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.popup, (ViewGroup)findViewById(R.id.popup_element));
             popUpWindow = new PopupWindow(layout, helpers.dpToPx(600), helpers.dpToPx(750)); //(context, width, height)
             popUpWindow.showAtLocation(layout, Gravity.CENTER, 0, 0); //(layout, gravity, x, y)
@@ -130,35 +128,35 @@ public class VlasicAllItems extends AppCompatActivity {
             textWeightEdit = (TextView)layout.findViewById(R.id.textWeightEdit);
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
-                case R.id.buttonVlasicDill:
+                case R.id.buttonMaePloyGreen:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_dill_label);
-                    textWeightEdit.setText(R.string.Vlasic_dill_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_dill_price);
+                    textNameEdit.setText(R.string.MaePloy_green_label);
+                    textWeightEdit.setText(R.string.MaePloy_green_weight);
+                    textPerCrtEdit.setText(R.string.MaePloy_green_price);
                     break;
-                case R.id.buttonVlasicDillBaby:
+                case R.id.buttonMaePloyRed:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_dill_baby_label);
-                    textWeightEdit.setText(R.string.Vlasic_dill_baby_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_dill_baby_price);
+                    textNameEdit.setText(R.string.MaePloy_red_label);
+                    textWeightEdit.setText(R.string.MaePloy_red_weight);
+                    textPerCrtEdit.setText(R.string.MaePloy_red_price);
                     break;
-                case R.id.buttonVlasicGherkins:
+                case R.id.buttonMaePloySweet:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_gherkins_label);
-                    textWeightEdit.setText(R.string.Vlasic_gherkins_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_gherkins_price);
+                    textNameEdit.setText(R.string.MaePloy_sweet_label);
+                    textWeightEdit.setText(R.string.MaePloy_sweet_weight);
+                    textPerCrtEdit.setText(R.string.MaePloy_sweet_price);
                     break;
-                case R.id.buttonVlasicMidgets:
+                case R.id.buttonMaePloyThai:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_midgets_label);
-                    textWeightEdit.setText(R.string.Vlasic_midgets_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_midgets_price);
+                    textNameEdit.setText(R.string.MaePloy_thai_label);
+                    textWeightEdit.setText(R.string.MaePloy_thai_weight);
+                    textPerCrtEdit.setText(R.string.MaePloy_thai_price);
                     break;
-                case R.id.buttonVlasicRelish:
+                case R.id.buttonMaePloyTomyum:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_relish_label);
-                    textWeightEdit.setText(R.string.Vlasic_relish_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_relish_price);
+                    textNameEdit.setText(R.string.MaePloy_tomyum_label);
+                    textWeightEdit.setText(R.string.MaePloy_tomyum_weight);
+                    textPerCrtEdit.setText(R.string.MaePloy_tomyum_price);
                     break;
             }
             //Setup close button

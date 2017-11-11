@@ -50,7 +50,7 @@ public class DericaAllItems extends AppCompatActivity {
         }
 
         //Set background
-        contentLayout = (LinearLayout)findViewById(R.id.diamondContentLayout);
+        contentLayout = (LinearLayout)findViewById(R.id.dericaContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
         //Set buttons

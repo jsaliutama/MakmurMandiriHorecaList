@@ -11,11 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class VlasicAllItems extends AppCompatActivity {
+public class CattlemenAllItems extends AppCompatActivity {
 
     //Constants
     final String WHITE = "#ffffff";
@@ -25,32 +25,32 @@ public class VlasicAllItems extends AppCompatActivity {
     final float BACKGROUND_DIM = 0.7f;
     final float BACKGROUND_GONE = 0.0f;
 
-    ScrollView contentLayout;
+    LinearLayout contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
-    int[] buttonList = {R.id.buttonVlasicDill,
-            R.id.buttonVlasicDillBaby,
-            R.id.buttonVlasicGherkins,
-            R.id.buttonVlasicMidgets,
-            R.id.buttonVlasicRelish
+    int[] buttonList = {R.id.buttonCattlemenCarolina,
+            R.id.buttonCattlemenKansas,
+            R.id.buttonCattlemenMemphis,
+            R.id.buttonCattlemenMississippi,
+            R.id.buttonCattlemenSmoke
     };
     ImageView imageView;
     TextView textNameEdit;
     TextView textWeightEdit;
     TextView textPerCrtEdit;
 
-    Button dill;
-    Button baby;
-    Button gherkins;
-    Button midgets;
-    Button relish;
+    Button carolina;
+    Button kansas;
+    Button memphis;
+    Button mississippi;
+    Button smoke;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vlasic_all_items);
+        setContentView(R.layout.activity_cattlemen_all_items);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarVlasicAllItems);
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbarCattlemenAllItems);
         setSupportActionBar(toolbar);
 
         if (getSupportActionBar() != null){
@@ -58,48 +58,47 @@ public class VlasicAllItems extends AppCompatActivity {
         }
 
         //Set background
-        contentLayout = (ScrollView)findViewById(R.id.vlasicContentLayout);
+        contentLayout = (LinearLayout)findViewById(R.id.cattlemenContentLayout);
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
-        //Set buttons
-        dill = (Button)findViewById(R.id.buttonVlasicDill);
-        baby = (Button)findViewById(R.id.buttonVlasicDillBaby);
-        gherkins = (Button)findViewById(R.id.buttonVlasicGherkins);
-        midgets = (Button)findViewById(R.id.buttonVlasicMidgets);
-        relish = (Button)findViewById(R.id.buttonVlasicRelish);
+        carolina = (Button)findViewById(R.id.buttonCattlemenCarolina);
+        kansas = (Button)findViewById(R.id.buttonCattlemenKansas);
+        memphis = (Button)findViewById(R.id.buttonCattlemenMemphis);
+        mississippi = (Button)findViewById(R.id.buttonCattlemenMississippi);
+        smoke = (Button)findViewById(R.id.buttonCattlemenSmoke);
 
-        dill.setOnClickListener(new View.OnClickListener() {
+        carolina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(dill);
+                btnOnClick(carolina);
             }
         });
 
-        baby.setOnClickListener(new View.OnClickListener() {
+        kansas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(baby);
+                btnOnClick(kansas);
             }
         });
 
-        gherkins.setOnClickListener(new View.OnClickListener() {
+        memphis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(gherkins);
+                btnOnClick(memphis);
             }
         });
 
-        midgets.setOnClickListener(new View.OnClickListener() {
+        mississippi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(midgets);
+                btnOnClick(mississippi);
             }
         });
 
-        relish.setOnClickListener(new View.OnClickListener() {
+        smoke.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(relish);
+                btnOnClick(smoke);
             }
         });
     }
@@ -119,7 +118,7 @@ public class VlasicAllItems extends AppCompatActivity {
             Helpers helpers = new Helpers(getApplicationContext());
 
             //Show the popup window
-            LayoutInflater inflater = (LayoutInflater)VlasicAllItems.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater)CattlemenAllItems.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.popup, (ViewGroup)findViewById(R.id.popup_element));
             popUpWindow = new PopupWindow(layout, helpers.dpToPx(600), helpers.dpToPx(750)); //(context, width, height)
             popUpWindow.showAtLocation(layout, Gravity.CENTER, 0, 0); //(layout, gravity, x, y)
@@ -130,35 +129,35 @@ public class VlasicAllItems extends AppCompatActivity {
             textWeightEdit = (TextView)layout.findViewById(R.id.textWeightEdit);
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
-                case R.id.buttonVlasicDill:
+                case R.id.buttonCattlemenCarolina:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_dill_label);
-                    textWeightEdit.setText(R.string.Vlasic_dill_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_dill_price);
+                    textNameEdit.setText(R.string.Cattlemen_carolina_label);
+                    textWeightEdit.setText(R.string.Cattlemen_carolina_weight);
+                    textPerCrtEdit.setText(R.string.Cattlemen_carolina_price);
                     break;
-                case R.id.buttonVlasicDillBaby:
+                case R.id.buttonCattlemenKansas:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_dill_baby_label);
-                    textWeightEdit.setText(R.string.Vlasic_dill_baby_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_dill_baby_price);
+                    textNameEdit.setText(R.string.Cattlemen_kansas_label);
+                    textWeightEdit.setText(R.string.Cattlemen_kansas_weight);
+                    textPerCrtEdit.setText(R.string.Cattlemen_kansas_price);
                     break;
-                case R.id.buttonVlasicGherkins:
+                case R.id.buttonCattlemenMemphis:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_gherkins_label);
-                    textWeightEdit.setText(R.string.Vlasic_gherkins_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_gherkins_price);
+                    textNameEdit.setText(R.string.Cattlemen_memphis_label);
+                    textWeightEdit.setText(R.string.Cattlemen_memphis_weight);
+                    textPerCrtEdit.setText(R.string.Cattlemen_memphis_price);
                     break;
-                case R.id.buttonVlasicMidgets:
+                case R.id.buttonCattlemenMississippi:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_midgets_label);
-                    textWeightEdit.setText(R.string.Vlasic_midgets_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_midgets_price);
+                    textNameEdit.setText(R.string.Cattlemen_mississippi_label);
+                    textWeightEdit.setText(R.string.Cattlemen_mississippi_weight);
+                    textPerCrtEdit.setText(R.string.Cattlemen_mississippi_price);
                     break;
-                case R.id.buttonVlasicRelish:
+                case R.id.buttonCattlemenSmoke:
                     imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Vlasic_relish_label);
-                    textWeightEdit.setText(R.string.Vlasic_relish_weight);
-                    textPerCrtEdit.setText(R.string.Vlasic_relish_price);
+                    textNameEdit.setText(R.string.Cattlemen_smoke_label);
+                    textWeightEdit.setText(R.string.Cattlemen_smoke_weight);
+                    textPerCrtEdit.setText(R.string.Cattlemen_smoke_price);
                     break;
             }
             //Setup close button

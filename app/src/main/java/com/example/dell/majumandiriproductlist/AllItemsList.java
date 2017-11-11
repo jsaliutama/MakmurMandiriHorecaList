@@ -194,5 +194,105 @@ public class AllItemsList extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Generate Cattlemen button
+        Button cattlemenButton = (Button)findViewById(R.id.buttonCattlemen);
+        cattlemenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CattlemenAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate De Rica button
+        Button deRicaButton = (Button)findViewById(R.id.buttonDerica);
+        deRicaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), DericaAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Cirio button
+        Button cirioButton = (Button)findViewById(R.id.buttonCirio);
+        cirioButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CirioAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate French button
+        Button frenchButton = (Button)findViewById(R.id.buttonFrench);
+        frenchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FrenchsAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Lindsay button
+        Button lindsayButton = (Button)findViewById(R.id.buttonLindsay);
+        lindsayButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), LindsayAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate JW button
+        Button jwButton = (Button)findViewById(R.id.buttonJW);
+        jwButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), JwAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Mae Ploy button
+        Button maePloyButton = (Button)findViewById(R.id.buttonMaePloy);
+        maePloyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MaePloyAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Sunny Perfect button
+        Button sunnyButton = (Button)findViewById(R.id.buttonSunny);
+        sunnyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), SunnyAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Vlasic button
+        Button vlasicButton = (Button)findViewById(R.id.buttonVlasic);
+        vlasicButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), VlasicAllItems.class);
+                startActivity(intent);
+            }
+        });
+
+        //Generate Costa d'Oro button
+        Button costadoroButton = (Button)findViewById(R.id.buttonCostadoro);
+        costadoroButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CostadoroAllItems.class);
+                startActivity(intent);
+            }
+        });
     }
 }
