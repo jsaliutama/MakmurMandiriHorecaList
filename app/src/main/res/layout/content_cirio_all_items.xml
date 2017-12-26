@@ -11,14 +11,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <Button
-            android:id="@+id/buttonCirioBlanchi"
+            android:id="@+id/buttonCirioBianchi"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/Cirio_blanchi"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:text="@string/Cirio_bianchi"
+            android:drawableStart="@drawable/cirio_bianchi_s"/>
         <Button
             android:id="@+id/buttonCirioCannelini"
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_cannelini"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_cannellini_s"/>
         <Button
             android:id="@+id/buttonCirioCeci"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_ceci"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_ceci_s"/>
         <Button
             android:id="@+id/buttonCirioFagioli"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_fagioli"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_fagioli_borlotti_s"/>
         <Button
             android:id="@+id/buttonCirioKidney"
             android:layout_width="match_parent"
@@ -54,7 +54,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_kidney"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_red_kidney_s"/>
         <Button
             android:id="@+id/buttonCirioPassata"
             android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_piselli"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_piselli_s"/>
         <Button
             android:id="@+id/buttonCirioPuree"
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_puree"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_tomato_puree_s"/>
         <Button
             android:id="@+id/buttonCirioTomatoesChopped"
             android:layout_width="match_parent"
@@ -90,7 +90,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_tomatoes_chopped"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_polpa_s"/>
         <Button
             android:id="@+id/buttonCirioTomatoesWhole"
             android:layout_width="match_parent"
@@ -99,6 +99,6 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Cirio_tomatoes_whole"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/cirio_pelati_s"/>
     </LinearLayout>
 </ScrollView>

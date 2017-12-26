@@ -100,13 +100,13 @@ public class CostadoroAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonCostadoroPomace:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.costa_pomace_l);
                     textNameEdit.setText(R.string.Costadoro_pomace_label);
                     textWeightEdit.setText(R.string.Costadoro_pomace_weight);
                     textPerCrtEdit.setText(R.string.Costadoro_pomace_price);
                     break;
                 case R.id.buttonCostadoroVirgin:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.costa_virgin_l);
                     textNameEdit.setText(R.string.Costadoro_virgin_label);
                     textWeightEdit.setText(R.string.Costadoro_virgin_weight);
                     textPerCrtEdit.setText(R.string.Costadoro_virgin_price);

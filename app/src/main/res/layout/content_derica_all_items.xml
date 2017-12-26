@@ -15,5 +15,5 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/DeRica_tomato"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/derica_tomatoes_s"/>
 </LinearLayout>

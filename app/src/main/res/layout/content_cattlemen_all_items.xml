@@ -15,7 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/Cattlemen_carolina"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/cattlemen_carolina_s"/>
     <Button
         android:id="@+id/buttonCattlemenKansas"
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/Cattlemen_kansas"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/cattlemen_kansas_s"/>
     <Button
         android:id="@+id/buttonCattlemenMemphis"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/Cattlemen_memphis"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/cattlemen_memphis_s"/>
     <Button
         android:id="@+id/buttonCattlemenMississippi"
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/Cattlemen_mississippi"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/cattlemen_mississippi_s"/>
     <Button
         android:id="@+id/buttonCattlemenSmoke"
         android:layout_width="match_parent"
@@ -51,5 +51,5 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/Cattlemen_smoke"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/cattlemen_smoky_s"/>
 </LinearLayout>

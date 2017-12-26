@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,11 +28,12 @@ public class FrenchsAllItems extends AppCompatActivity {
     ScrollView contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
-    int[] buttonList = {R.id.buttonDiamondAluminum,
-            R.id.buttonDiamondCling,
-            R.id.buttonDiamondFreezer,
-            R.id.buttonDiamondHeavy,
-            R.id.buttonDiamondStorage
+    int[] buttonList = {R.id.buttonFrenchClassic,
+            R.id.buttonFrenchDijon,
+            R.id.buttonFrenchHoney,
+            R.id.buttonFrenchHoneyDijon,
+            R.id.buttonFrenchSpicy,
+            R.id.buttonFrenchWorcestershire
     };
     ImageView imageView;
     TextView textNameEdit;
@@ -139,37 +141,39 @@ public class FrenchsAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonFrenchClassic:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.frenchs_classic_l);
                     textNameEdit.setText(R.string.French_classic_label);
                     textWeightEdit.setText(R.string.French_classic_weight);
+                    textWeightEdit.setTextSize(TypedValue.COMPLEX_UNIT_SP,16);
                     textPerCrtEdit.setText(R.string.French_classic_price);
+                    textPerCrtEdit.setTextSize(TypedValue.COMPLEX_UNIT_SP,16);
                     break;
                 case R.id.buttonFrenchDijon:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.frenchs_dijon_l);
                     textNameEdit.setText(R.string.French_dijon_label);
                     textWeightEdit.setText(R.string.French_dijon_weight);
                     textPerCrtEdit.setText(R.string.French_dijon_price);
                     break;
                 case R.id.buttonFrenchHoney:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.frenchs_honey_l);
                     textNameEdit.setText(R.string.French_honey_dijon_label);
                     textWeightEdit.setText(R.string.French_honey_dijon_weight);
                     textPerCrtEdit.setText(R.string.French_honey_dijon_price);
                     break;
                 case R.id.buttonFrenchHoneyDijon:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.frenchs_honey_dijon_l);
                     textNameEdit.setText(R.string.French_honey_dijon_label);
                     textWeightEdit.setText(R.string.French_honey_dijon_weight);
                     textPerCrtEdit.setText(R.string.French_honey_dijon_price);
                     break;
                 case R.id.buttonFrenchSpicy:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.frenchs_spicy_brown_l);
                     textNameEdit.setText(R.string.French_spicy_label);
                     textWeightEdit.setText(R.string.French_spicy_weight);
                     textPerCrtEdit.setText(R.string.French_spicy_price);
                     break;
                 case R.id.buttonFrenchWorcestershire:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.frenchs_worcestershire_l);
                     textNameEdit.setText(R.string.French_worcestershire_label);
                     textWeightEdit.setText(R.string.French_worcestershire_weight);
                     textPerCrtEdit.setText(R.string.French_worcestershire_price);

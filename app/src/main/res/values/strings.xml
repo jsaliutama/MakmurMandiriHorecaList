@@ -1036,10 +1036,10 @@
     <string name="Cirio_ceci_label">Cirio Ceci (Chick peas)</string>
     <string name="Cirio_ceci_weight">400 gr./12</string>
     <string name="Cirio_ceci_price">187.000/15.583</string>
-    <string name="Cirio_blanchi">Blanchi spagna</string>
-    <string name="Cirio_blanchi_label">Cirio Blanchi Spagna (Butter Beans)</string>
-    <string name="Cirio_blanchi_weight">400 gr./12</string>
-    <string name="Cirio_blanchi_price">187.000/15.583</string>
+    <string name="Cirio_bianchi">Blanchi spagna</string>
+    <string name="Cirio_bianchi_label">Cirio Bianchi di Spagna (Butter Beans)</string>
+    <string name="Cirio_bianchi_weight">400 gr./12</string>
+    <string name="Cirio_bianchi_price">187.000/15.583</string>
     <string name="Cirio_puree">Puree tomat</string>
     <string name="Cirio_puree_label">Cirio Tomato Puree</string>
     <string name="Cirio_puree_weight">350 gr./12</string>
@@ -1073,7 +1073,7 @@
     <!--The following is for French's-related items-->
     <string name="French_title">French\'s Sauce</string>
     <string name="French_classic">Classic yellow mustard</string>
-    <string name="French_classic_label">French\'s Classi Yellow Mustard</string>
+    <string name="French_classic_label">French\'s Classic Yellow Mustard</string>
     <string name="French_classic_weight">Glass: 6 oz./24 | 9 oz./24\nGallon: 105 oz./4\nSqueeze: 8 oz./20 | 14 oz./16</string>
     <string name="French_classic_price">Glass: 6 oz.: 440.000/18.333 | 9 oz.: 550.000/22.917\nGallon: 412.500/103.125\nSqueeze: 8 oz.: 517.000/25.850 | 14 oz.: 528.000/33.000</string>
     <string name="French_dijon">Dijon mustard</string>

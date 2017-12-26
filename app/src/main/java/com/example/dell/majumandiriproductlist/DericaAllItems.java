@@ -91,7 +91,7 @@ public class DericaAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonDericaTomatoes:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.derica_tomatoes_l);
                     textNameEdit.setText(R.string.DeRica_tomato_label);
                     textWeightEdit.setText(R.string.DeRica_tomato_weight);
                     textPerCrtEdit.setText(R.string.DeRica_tomato_price);

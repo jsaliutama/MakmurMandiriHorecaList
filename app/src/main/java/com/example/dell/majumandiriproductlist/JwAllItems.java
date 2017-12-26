@@ -31,6 +31,7 @@ public class JwAllItems extends AppCompatActivity {
             R.id.buttonJwAppleCelebration,
             R.id.buttonJwBlueCocktail,
             R.id.buttonJwPinkCocktail,
+            R.id.buttonJwPurpleCocktail,
             R.id.buttonJwRedCocktail,
             R.id.buttonJwRedGrape,
             R.id.buttonJwRoseCelebration,
@@ -45,6 +46,7 @@ public class JwAllItems extends AppCompatActivity {
     Button appleCeleb;
     Button blue;
     Button pink;
+    Button purple;
     Button red;
     Button redGrape;
     Button rose;
@@ -71,6 +73,7 @@ public class JwAllItems extends AppCompatActivity {
         appleCeleb = (Button)findViewById(R.id.buttonJwAppleCelebration);
         blue = (Button)findViewById(R.id.buttonJwBlueCocktail);
         pink = (Button)findViewById(R.id.buttonJwPinkCocktail);
+        purple = (Button)findViewById(R.id.buttonJwPurpleCocktail);
         red = (Button)findViewById(R.id.buttonJwRedCocktail);
         redGrape = (Button)findViewById(R.id.buttonJwRedGrape);
         rose = (Button)findViewById(R.id.buttonJwRoseCelebration);
@@ -79,7 +82,63 @@ public class JwAllItems extends AppCompatActivity {
         apple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                btnOnClick(apple);
+            }
+        });
 
+        appleCeleb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(appleCeleb);
+            }
+        });
+
+        blue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(blue);
+            }
+        });
+
+        pink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(pink);
+            }
+        });
+
+        purple.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(purple);
+            }
+        });
+
+        red.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(red);
+            }
+        });
+
+        redGrape.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(redGrape);
+            }
+        });
+
+        rose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(rose);
+            }
+        });
+
+        white.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnOnClick(white);
             }
         });
     }
@@ -111,55 +170,55 @@ public class JwAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonJwApple:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_apple_l);
                     textNameEdit.setText(R.string.JW_apple_label);
                     textWeightEdit.setText(R.string.JW_apple_weight);
                     textPerCrtEdit.setText(R.string.JW_apple_price);
                     break;
                 case R.id.buttonJwAppleCelebration:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_apple_celebration_l);
                     textNameEdit.setText(R.string.JW_apple_celebration_label);
                     textWeightEdit.setText(R.string.JW_apple_celebration_weight);
                     textPerCrtEdit.setText(R.string.JW_apple_celebration_price);
                     break;
                 case R.id.buttonJwBlueCocktail:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_blue_cocktail_l);
                     textNameEdit.setText(R.string.JW_blue_cocktail_label);
                     textWeightEdit.setText(R.string.JW_blue_cocktail_weight);
                     textPerCrtEdit.setText(R.string.JW_blue_cocktail_price);
                     break;
                 case R.id.buttonJwPinkCocktail:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_pink_cocktail_l);
                     textNameEdit.setText(R.string.JW_pink_cocktail_label);
                     textWeightEdit.setText(R.string.JW_pink_cocktail_weight);
                     textPerCrtEdit.setText(R.string.JW_pink_cocktail_price);
                     break;
                 case R.id.buttonJwPurpleCocktail:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_purple_cocktail_l);
                     textNameEdit.setText(R.string.JW_purple_cocktail_label);
                     textWeightEdit.setText(R.string.JW_purple_cocktail_weight);
                     textPerCrtEdit.setText(R.string.JW_purple_cocktail_price);
                     break;
                 case R.id.buttonJwRedCocktail:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_red_cocktail_l);
                     textNameEdit.setText(R.string.JW_red_cocktail_label);
                     textWeightEdit.setText(R.string.JW_red_cocktail_weight);
                     textPerCrtEdit.setText(R.string.JW_red_cocktail_price);
                     break;
                 case R.id.buttonJwRedGrape:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_red_grape_l);
                     textNameEdit.setText(R.string.JW_red_grape_label);
                     textWeightEdit.setText(R.string.JW_red_grape_weight);
                     textPerCrtEdit.setText(R.string.JW_red_grape_price);
                     break;
                 case R.id.buttonJwRoseCelebration:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_rose_l);
                     textNameEdit.setText(R.string.JW_rose_celebration_label);
                     textWeightEdit.setText(R.string.JW_rose_celebration_weight);
                     textPerCrtEdit.setText(R.string.JW_rose_celebration_price);
                     break;
                 case R.id.buttonJwWhiteGrape:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.jw_white_grape_l);
                     textNameEdit.setText(R.string.JW_white_grape_label);
                     textWeightEdit.setText(R.string.JW_white_grape_weight);
                     textPerCrtEdit.setText(R.string.JW_white_grape_price);

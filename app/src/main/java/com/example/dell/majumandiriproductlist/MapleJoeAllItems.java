@@ -93,7 +93,7 @@ public class MapleJoeAllItems extends AppCompatActivity {
 
             switch (b.getId()){
                 case R.id.buttonMapleJoe:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.joe_l);
                     textNameEdit.setText(R.string.Joe_syrup_label);
                     textWeightEdit.setText(R.string.Joe_syrup_weight);
                     textPerCrtEdit.setText(R.string.Joe_syrup_price);

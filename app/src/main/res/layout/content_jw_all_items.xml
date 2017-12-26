@@ -18,7 +18,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_apple"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_apple_s"/>
         <Button
             android:id="@+id/buttonJwAppleCelebration"
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_apple_celebration"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_apple_celebration_s"/>
         <Button
             android:id="@+id/buttonJwBlueCocktail"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_blue_cocktail"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_blue_cocktail_s"/>
         <Button
             android:id="@+id/buttonJwPinkCocktail"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_pink_cocktail"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_pink_cocktail_s"/>
         <Button
             android:id="@+id/buttonJwPurpleCocktail"
             android:layout_width="match_parent"
@@ -54,7 +54,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_purple_cocktail"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_purple_cocktail_s"/>
         <Button
             android:id="@+id/buttonJwRedCocktail"
             android:layout_width="match_parent"
@@ -63,7 +63,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_red_cocktail"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_red_cocktail_s"/>
         <Button
             android:id="@+id/buttonJwRedGrape"
             android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_red_grape"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_red_grape_s"/>
         <Button
             android:id="@+id/buttonJwRoseCelebration"
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_rose_celebration"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_rose_s"/>
         <Button
             android:id="@+id/buttonJwWhiteGrape"
             android:layout_width="match_parent"
@@ -90,6 +90,6 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/JW_white_grape"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/jw_white_grape_s"/>
     </LinearLayout>
 </ScrollView>

@@ -18,7 +18,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Vlasic_dill"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/vlasic_dill_s"/>
         <Button
             android:id="@+id/buttonVlasicDillBaby"
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Vlasic_dill_baby"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/vlasic_baby_dill_s"/>
         <Button
             android:id="@+id/buttonVlasicGherkins"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Vlasic_gherkins"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/vlasic_gherkins_s"/>
         <Button
             android:id="@+id/buttonVlasicMidgets"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Vlasic_midgets"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/vlasic_midgets_s"/>
         <Button
             android:id="@+id/buttonVlasicRelish"
             android:layout_width="match_parent"
@@ -54,6 +54,6 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/Vlasic_relish"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/vlasic_relish_s"/>
     </LinearLayout>
 </ScrollView>

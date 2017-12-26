@@ -15,7 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/Costadoro_pomace"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/costa_pomace_s"/>
     <Button
         android:id="@+id/buttonCostadoroVirgin"
         android:layout_width="match_parent"
@@ -24,5 +24,5 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/Costadoro_virgin"
-        android:drawableStart="@drawable/ic_unknown"/>
+        android:drawableStart="@drawable/costa_virgin_s"/>
 </LinearLayout>

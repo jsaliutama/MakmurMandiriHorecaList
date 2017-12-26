@@ -131,31 +131,31 @@ public class VlasicAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonVlasicDill:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.vlasic_dill_l);
                     textNameEdit.setText(R.string.Vlasic_dill_label);
                     textWeightEdit.setText(R.string.Vlasic_dill_weight);
                     textPerCrtEdit.setText(R.string.Vlasic_dill_price);
                     break;
                 case R.id.buttonVlasicDillBaby:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.vlasic_baby_dill_l);
                     textNameEdit.setText(R.string.Vlasic_dill_baby_label);
                     textWeightEdit.setText(R.string.Vlasic_dill_baby_weight);
                     textPerCrtEdit.setText(R.string.Vlasic_dill_baby_price);
                     break;
                 case R.id.buttonVlasicGherkins:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.vlasic_gherkins_l);
                     textNameEdit.setText(R.string.Vlasic_gherkins_label);
                     textWeightEdit.setText(R.string.Vlasic_gherkins_weight);
                     textPerCrtEdit.setText(R.string.Vlasic_gherkins_price);
                     break;
                 case R.id.buttonVlasicMidgets:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.vlasic_midgets_l);
                     textNameEdit.setText(R.string.Vlasic_midgets_label);
                     textWeightEdit.setText(R.string.Vlasic_midgets_weight);
                     textPerCrtEdit.setText(R.string.Vlasic_midgets_price);
                     break;
                 case R.id.buttonVlasicRelish:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.vlasic_relish_l);
                     textNameEdit.setText(R.string.Vlasic_relish_label);
                     textWeightEdit.setText(R.string.Vlasic_relish_weight);
                     textPerCrtEdit.setText(R.string.Vlasic_relish_price);

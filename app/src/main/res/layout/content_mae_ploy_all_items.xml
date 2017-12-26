@@ -18,7 +18,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/MaePloy_green"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/maeploy_green_s"/>
         <Button
             android:id="@+id/buttonMaePloyRed"
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/MaePloy_red"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/maeploy_red_s"/>
         <Button
             android:id="@+id/buttonMaePloySweet"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/MaePloy_sweet"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/maeploy_sweet_s"/>
         <Button
             android:id="@+id/buttonMaePloyThai"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/MaePloy_thai"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/maeploy_thai_s"/>
         <Button
             android:id="@+id/buttonMaePloyTomyum"
             android:layout_width="match_parent"
@@ -54,6 +54,6 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/MaePloy_tomyum"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/maeploy_tomyum_s"/>
     </LinearLayout>
 </ScrollView>

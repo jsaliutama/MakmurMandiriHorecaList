@@ -129,31 +129,31 @@ public class MaePloyAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonMaePloyGreen:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.maeploy_green_l);
                     textNameEdit.setText(R.string.MaePloy_green_label);
                     textWeightEdit.setText(R.string.MaePloy_green_weight);
                     textPerCrtEdit.setText(R.string.MaePloy_green_price);
                     break;
                 case R.id.buttonMaePloyRed:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.maeploy_red_l);
                     textNameEdit.setText(R.string.MaePloy_red_label);
                     textWeightEdit.setText(R.string.MaePloy_red_weight);
                     textPerCrtEdit.setText(R.string.MaePloy_red_price);
                     break;
                 case R.id.buttonMaePloySweet:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.maeploy_sweet_l);
                     textNameEdit.setText(R.string.MaePloy_sweet_label);
                     textWeightEdit.setText(R.string.MaePloy_sweet_weight);
                     textPerCrtEdit.setText(R.string.MaePloy_sweet_price);
                     break;
                 case R.id.buttonMaePloyThai:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.maeploy_thai_l);
                     textNameEdit.setText(R.string.MaePloy_thai_label);
                     textWeightEdit.setText(R.string.MaePloy_thai_weight);
                     textPerCrtEdit.setText(R.string.MaePloy_thai_price);
                     break;
                 case R.id.buttonMaePloyTomyum:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.maeploy_tomyum_l);
                     textNameEdit.setText(R.string.MaePloy_tomyum_label);
                     textWeightEdit.setText(R.string.MaePloy_tomyum_weight);
                     textPerCrtEdit.setText(R.string.MaePloy_tomyum_price);

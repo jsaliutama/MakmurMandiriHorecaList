@@ -104,13 +104,13 @@ public class LogCabinAllItems extends AppCompatActivity {
 
             switch (b.getId()){
                 case R.id.buttonLogCabinCountry:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.log_cabin_country_l);
                     textNameEdit.setText(R.string.Log_country_label);
                     textWeightEdit.setText(R.string.Log_country_weight);
                     textPerCrtEdit.setText(R.string.Log_country_price);
                     break;
                 case R.id.buttonLogCabinOriginal:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.log_cabin_original_l);
                     textNameEdit.setText(R.string.Log_original_label);
                     textWeightEdit.setText(R.string.Log_original_weight);
                     textPerCrtEdit.setText(R.string.Log_original_price);

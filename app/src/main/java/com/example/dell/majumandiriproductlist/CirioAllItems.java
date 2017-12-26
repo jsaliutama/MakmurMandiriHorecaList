@@ -28,7 +28,7 @@ public class CirioAllItems extends AppCompatActivity {
     ScrollView contentLayout;
     PopupWindow popUpWindow;
     Button btnClose;
-    int[] buttonList = {R.id.buttonCirioBlanchi,
+    int[] buttonList = {R.id.buttonCirioBianchi,
             R.id.buttonCirioCannelini,
             R.id.buttonCirioCeci,
             R.id.buttonCirioFagioli,
@@ -44,7 +44,7 @@ public class CirioAllItems extends AppCompatActivity {
     TextView textWeightEdit;
     TextView textPerCrtEdit;
 
-    Button blanchi;
+    Button bianchi;
     Button cannelini;
     Button ceci;
     Button fagioli;
@@ -72,7 +72,7 @@ public class CirioAllItems extends AppCompatActivity {
         contentLayout.setBackgroundColor(Color.parseColor(WHITE));
 
         //Set button
-        blanchi = (Button)findViewById(R.id.buttonCirioBlanchi);
+        bianchi = (Button)findViewById(R.id.buttonCirioBianchi);
         cannelini = (Button)findViewById(R.id.buttonCirioCannelini);
         ceci = (Button)findViewById(R.id.buttonCirioCeci);
         fagioli = (Button)findViewById(R.id.buttonCirioFagioli);
@@ -83,10 +83,10 @@ public class CirioAllItems extends AppCompatActivity {
         tomatoesChopped = (Button)findViewById(R.id.buttonCirioTomatoesChopped);
         tomatoesWhole = (Button)findViewById(R.id.buttonCirioTomatoesWhole);
 
-        blanchi.setOnClickListener(new View.OnClickListener() {
+        bianchi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnOnClick(blanchi);
+                btnOnClick(bianchi);
             }
         });
 
@@ -180,32 +180,32 @@ public class CirioAllItems extends AppCompatActivity {
             textWeightEdit = (TextView)layout.findViewById(R.id.textWeightEdit);
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
-                case R.id.buttonCirioBlanchi:
-                    imageView.setImageResource(R.drawable.ic_unknown);
-                    textNameEdit.setText(R.string.Cirio_blanchi_label);
-                    textWeightEdit.setText(R.string.Cirio_blanchi_weight);
-                    textPerCrtEdit.setText(R.string.Cirio_blanchi_price);
+                case R.id.buttonCirioBianchi:
+                    imageView.setImageResource(R.drawable.cirio_bianchi_l);
+                    textNameEdit.setText(R.string.Cirio_bianchi_label);
+                    textWeightEdit.setText(R.string.Cirio_bianchi_weight);
+                    textPerCrtEdit.setText(R.string.Cirio_bianchi_price);
                     break;
                 case R.id.buttonCirioCannelini:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_cannellini_l);
                     textNameEdit.setText(R.string.Cirio_cannelini_label);
                     textWeightEdit.setText(R.string.Cirio_cannelini_weight);
                     textPerCrtEdit.setText(R.string.Cirio_cannelini_price);
                     break;
                 case R.id.buttonCirioCeci:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_ceci_l);
                     textNameEdit.setText(R.string.Cirio_ceci_label);
                     textWeightEdit.setText(R.string.Cirio_ceci_weight);
                     textPerCrtEdit.setText(R.string.Cirio_ceci_price);
                     break;
                 case R.id.buttonCirioFagioli:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_fagioli_borlotti_l);
                     textNameEdit.setText(R.string.Cirio_fagioli_label);
                     textWeightEdit.setText(R.string.Cirio_fagioli_weight);
                     textPerCrtEdit.setText(R.string.Cirio_fagioli_price);
                     break;
                 case R.id.buttonCirioKidney:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_red_kidney_l);
                     textNameEdit.setText(R.string.Cirio_kidney_label);
                     textWeightEdit.setText(R.string.Cirio_kidney_weight);
                     textPerCrtEdit.setText(R.string.Cirio_kidney_price);
@@ -217,25 +217,25 @@ public class CirioAllItems extends AppCompatActivity {
                     textPerCrtEdit.setText(R.string.Cirio_passata_price);
                     break;
                 case R.id.buttonCirioPiselli:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_piselli_l);
                     textNameEdit.setText(R.string.Cirio_piselli_label);
                     textWeightEdit.setText(R.string.Cirio_piselli_weight);
                     textPerCrtEdit.setText(R.string.Cirio_piselli_price);
                     break;
                 case R.id.buttonCirioPuree:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_tomato_puree_l);
                     textNameEdit.setText(R.string.Cirio_puree_label);
                     textWeightEdit.setText(R.string.Cirio_puree_weight);
                     textPerCrtEdit.setText(R.string.Cirio_puree_price);
                     break;
                 case R.id.buttonCirioTomatoesChopped:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_polpa_l);
                     textNameEdit.setText(R.string.Cirio_tomatoes_chopped_label);
                     textWeightEdit.setText(R.string.Cirio_tomatoes_chopped_weight);
                     textPerCrtEdit.setText(R.string.Cirio_tomatoes_chopped_price);
                     break;
                 case R.id.buttonCirioTomatoesWhole:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cirio_pelati_l);
                     textNameEdit.setText(R.string.Cirio_tomatoes_whole_label);
                     textWeightEdit.setText(R.string.Cirio_tomatoes_whole_weight);
                     textPerCrtEdit.setText(R.string.Cirio_tomatoes_whole_price);

@@ -18,7 +18,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/French_classic"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/frenchs_classic_s"/>
         <Button
             android:id="@+id/buttonFrenchDijon"
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/French_dijon"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/frenchs_dijon_s"/>
         <Button
             android:id="@+id/buttonFrenchHoneyDijon"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/French_honey_dijon"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/frenchs_honey_dijon_s"/>
         <Button
             android:id="@+id/buttonFrenchHoney"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/French_honey"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/frenchs_honey_s"/>
         <Button
             android:id="@+id/buttonFrenchSpicy"
             android:layout_width="match_parent"
@@ -54,7 +54,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/French_spicy"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/frenchs_spicy_brown_s"/>
         <Button
             android:id="@+id/buttonFrenchWorcestershire"
             android:layout_width="match_parent"
@@ -63,6 +63,6 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/French_worcestershire"
-            android:drawableStart="@drawable/ic_unknown"/>
+            android:drawableStart="@drawable/frenchs_worcestershire_s"/>
     </LinearLayout>
 </ScrollView>

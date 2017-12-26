@@ -130,31 +130,31 @@ public class CattlemenAllItems extends AppCompatActivity {
             textPerCrtEdit = (TextView)layout.findViewById(R.id.textPerCrtEdit);
             switch (b.getId()){
                 case R.id.buttonCattlemenCarolina:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cattlemen_carolina_l);
                     textNameEdit.setText(R.string.Cattlemen_carolina_label);
                     textWeightEdit.setText(R.string.Cattlemen_carolina_weight);
                     textPerCrtEdit.setText(R.string.Cattlemen_carolina_price);
                     break;
                 case R.id.buttonCattlemenKansas:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cattlemen_kansas_l);
                     textNameEdit.setText(R.string.Cattlemen_kansas_label);
                     textWeightEdit.setText(R.string.Cattlemen_kansas_weight);
                     textPerCrtEdit.setText(R.string.Cattlemen_kansas_price);
                     break;
                 case R.id.buttonCattlemenMemphis:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cattlemen_memphis_l);
                     textNameEdit.setText(R.string.Cattlemen_memphis_label);
                     textWeightEdit.setText(R.string.Cattlemen_memphis_weight);
                     textPerCrtEdit.setText(R.string.Cattlemen_memphis_price);
                     break;
                 case R.id.buttonCattlemenMississippi:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cattlemen_mississippi_l);
                     textNameEdit.setText(R.string.Cattlemen_mississippi_label);
                     textWeightEdit.setText(R.string.Cattlemen_mississippi_weight);
                     textPerCrtEdit.setText(R.string.Cattlemen_mississippi_price);
                     break;
                 case R.id.buttonCattlemenSmoke:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.cattlemen_smoky_l);
                     textNameEdit.setText(R.string.Cattlemen_smoke_label);
                     textWeightEdit.setText(R.string.Cattlemen_smoke_weight);
                     textPerCrtEdit.setText(R.string.Cattlemen_smoke_price);

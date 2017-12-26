@@ -105,13 +105,13 @@ public class ChateauAllItems extends AppCompatActivity {
 
             switch (b.getId()){
                 case R.id.buttonChateauRed:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.chateau_red_l);
                     textNameEdit.setText(R.string.Chateau_red_label);
                     textWeightEdit.setText(R.string.Chateau_weight);
                     textPerCrtEdit.setText(R.string.Chateau_red_price);
                     break;
                 case R.id.buttonChateauWhite:
-                    imageView.setImageResource(R.drawable.ic_unknown);
+                    imageView.setImageResource(R.drawable.chateau_white_l);
                     textNameEdit.setText(R.string.Chateau_white_label);
                     textWeightEdit.setText(R.string.Chateau_weight);
                     textPerCrtEdit.setText(R.string.Chateau_white_price);
